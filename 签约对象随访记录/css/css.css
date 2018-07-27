@@ -1,0 +1,58 @@
+*{margin:0; padding:0;}
+html{
+    font-family: Helvetica,sans-serif;
+}
+body{
+    background-color: #f0f0f0;
+    width: 100%;
+    max-width: 640px;
+    margin: auto
+}
+ul{
+	list-style:none;
+}
+a,a:hover,a:active,a:visited,a:link,a:focus{
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+    outline:none;
+    text-decoration: none;
+}
+
+input{
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+input::-webkit-input-placeholder{
+            color:#b7b7b7;
+}
+input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+            color:#b7b7b7;
+}
+input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+            color:#b7b7b7;
+}
+input:-ms-input-placeholder{  /* Internet Explorer 10-11 */ 
+            color:#b7b7b7;
+}
+.contract-box{
+	background: #fff;
+	margin-top: 8px;
+	margin-left: 16px;
+}
+.contract-box li{
+	line-height: 48px;
+	margin-left: 14px;
+	height: 48px;
+	border-bottom: 0.03em solid #ddd;
+}
+.contract-box li p.txt1,p.txt2{
+	margin-left: 14px;
+	display: inline-block;
+	color: #999999;
+}
+.contract-box li.last{
+	border: none;
+}
