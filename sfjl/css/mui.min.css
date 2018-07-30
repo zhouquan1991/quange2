@@ -926,7 +926,6 @@ p {
 }
 .a-cancel{
 	font-size: 14px;
-	font-weight: 400;
 	line-height: 1.42;
 	color: #999;
 	float: left;
@@ -937,7 +936,6 @@ p {
 }
 .a-sure{
 	font-size: 14px;
-	font-weight: 400;
 	line-height: 1.42;
 	color: #4A90E2;
 	float: right;
