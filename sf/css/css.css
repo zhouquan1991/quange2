@@ -11,9 +11,7 @@ body{
 ul{
 	list-style:none;
 }
-a,a:hover,a:active,a:visited,a:link,a:focus{
-    -webkit-tap-highlight-color:rgba(0,0,0,0);
-    -webkit-tap-highlight-color: transparent;
+a{
     outline:none;
     text-decoration: none;
 }
