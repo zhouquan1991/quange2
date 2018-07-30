@@ -93,13 +93,13 @@
 }
 
 .mui-pciker-list li.highlight {
-    color: #222
+    color: #333
 }
 
 .mui-poppicker {
     position: fixed;
     z-index: 999;
-    border-top: solid 1px #ccc;
+    border-top: solid 1px #ddd;
     bottom: 0;
     -webkit-transform: translateY(300px)
 }
@@ -165,7 +165,7 @@
 .mui-dtpicker {
     position: fixed;
     z-index: 999999;
-    border-top: solid 1px #ccc;
+    border-top: solid 1px #ddd;
     bottom: 0;
     -webkit-transform: translateY(300px)
 }
@@ -191,7 +191,7 @@
 }
 
 .mui-dtpicker-header {
-    padding: 6px;
+	height: 40px;
     font-size: 14px;
     color: #fff
 }
@@ -227,6 +227,9 @@
     border-top: solid 1px #ddd;
     background-color: #fff;
 }
+.showUserPicker{
+	color: #999;
+}
 
 [data-type=hour] [data-id=title-i],
 [data-type=hour] [data-id=picker-i],
@@ -261,7 +264,7 @@
 [data-type=hour] [data-id=title-h],
 [data-type=datetime] [data-id=picker-h],
 [data-type=datetime] [data-id=title-h] {
-    border-left: dotted 1px #ccc
+    border-left: dotted 1px #ddd
 }
 
 [data-type=datetime] .mui-picker,

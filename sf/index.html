@@ -13,11 +13,15 @@
 </head>
 <body>
 	<ul class="contract-box">
-		<li>签约对象</li>
-		<li>随访时间<a data-options='{"type":"date"}' class="selectdate">选择日期 ...</a></li>
-		<li>随方医生<p class="txt2">小红</p></li>
-		<li class="last">随访方式</li>
+		<li>签约对象<p class="user-name">小明</p></li>
+		<li>随访时间<a data-options='{"type":"date"}' class="selectdate">选择日期</a><em></em></li>
+		<li>随方医生<p class="doctor-name">小红</p></li>
+		<li class="last">随访方式<a id='showUserPicker'>请选择随访方式</a><em></em></li>
 	</ul>
+	<div class="remarks">
+		<label><img src="images/remarks.png" ></label><p>随访内容</p>
+		<textarea rows="" cols="" placeholder="请输入随访内容..."></textarea>
+	</div>
 	<script>
 		(function($) {
 			$.init();
@@ -71,6 +75,38 @@
 				}, false);
 			});
 		})(mui);
+		(function($, doc) {
+			$.init();
+			$.ready(function() {
+				/**
+				* 获取对象属性的值
+				* 主要用于过滤三级联动中，可能出现的最低级的数据不存在的情况，实际开发中需要注意这一点；
+				* @param {Object} obj 对象
+				* @param {String} param 属性名
+				*/
+				var _getParam = function(obj, param) {
+					return obj[param] || '';
+				};
+				//普通示例
+				var userPicker = new $.PopPicker();
+				userPicker.setData([{
+					value: 'ywj',
+					text: '电话随访'
+				}, {
+					value: 'aaa',
+					text: '面对面随访'
+				}]);
+				var showUserPickerButton = doc.getElementById('showUserPicker');
+				var userResult = doc.getElementById('showUserPicker');
+				showUserPickerButton.addEventListener('tap', function(event) {
+					userPicker.show(function(items) {
+						userResult.innerText = JSON.stringify(items[0].text).substring(1,JSON.stringify(items[0].text).length-1)
+						//返回 false 可以阻止选择框的关闭
+						//return false;
+					});
+				}, false);
+			});
+		})(mui, document);
 	</script>
 </body>
 </html>

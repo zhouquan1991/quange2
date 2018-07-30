@@ -40,19 +40,74 @@ input:-ms-input-placeholder{  /* Internet Explorer 10-11 */
 .contract-box{
 	background: #fff;
 	margin-top: 8px;
-	margin-left: 16px;
 }
 .contract-box li{
+	color: #333;
+	font-size: 14px;
 	line-height: 48px;
 	margin-left: 14px;
 	height: 48px;
 	border-bottom: 0.03em solid #ddd;
 }
-.contract-box li p.txt1,p.txt2{
+.contract-box li p.user-name,p.doctor-name{
 	margin-left: 14px;
 	display: inline-block;
-	color: #999999;
+	color: #999;
 }
+.contract-box li em{
+	float: right;
+	margin: 17px 16px;
+	height: 14px;
+	width: 8px;
+	background: url(../images/ChevronRight.png) no-repeat;
+	background-size: 100% 100%;
+}
+#showUserPicker{
+	margin-left: 14px;
+	display: inline-block;
+	color: #999;
+}
+.selectdate{
+	margin-left: 14px;
+	display: inline-block;
+	color: #999;
+}
+
 .contract-box li.last{
 	border: none;
+}
+.remarks{
+	line-height: 0;
+	font-size: 14px;
+	color: #333;
+	margin-top: 8px;
+	padding: 0px 16px;
+	padding-bottom: 16px;
+	background: #fff;
+}
+.remarks label{
+	display: block;
+	float: left;
+}
+.remarks label img{
+	height: 16px;
+	width: 16px;
+	margin: 12px 0px;
+	background-size: 100% 100%;
+}
+.remarks p{
+	line-height: 40px;
+	margin: 0 8px;
+	display: block;
+	float: left;
+	color: #333;
+}
+.remarks textarea{
+	margin: 0;
+	padding: 8px 12px;
+	line-height: 20px;
+	font-size: 14px;
+	height: 96px;
+	border: none;
+	background: #F5F5F5;
 }
