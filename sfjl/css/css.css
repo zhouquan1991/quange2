@@ -25,16 +25,16 @@ input{
     border: none;
     outline: none;
 }
-input::-webkit-input-placeholder{
+textarea::-webkit-input-placeholder{
             color:#b7b7b7;
 }
-input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+textarea::-moz-placeholder{   /* Mozilla Firefox 19+ */
             color:#b7b7b7;
 }
-input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+textarea:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
             color:#b7b7b7;
 }
-input:-ms-input-placeholder{  /* Internet Explorer 10-11 */ 
+textarea:-ms-input-placeholder{  /* Internet Explorer 10-11 */ 
             color:#b7b7b7;
 }
 .contract-box{
@@ -50,7 +50,7 @@ input:-ms-input-placeholder{  /* Internet Explorer 10-11 */
 	border-bottom: 0.03em solid #ddd;
 }
 .contract-box li p.user-name,p.doctor-name{
-	margin-left: 14px;
+	margin-left: 24px;
 	display: inline-block;
 	color: #999;
 }
@@ -63,17 +63,17 @@ input:-ms-input-placeholder{  /* Internet Explorer 10-11 */
 	background-size: 100% 100%;
 }
 #showUserPicker{
-	margin-left: 14px;
+	margin-left: 24px;
 	display: inline-block;
 	color: #999;
 }
 .selectdate{
-	margin-left: 14px;
+	margin-left: 24px;
 	display: inline-block;
 	color: #999;
 }
 
-.contract-box li.last{
+.contract-box li#last{
 	border: none;
 }
 .remarks{
