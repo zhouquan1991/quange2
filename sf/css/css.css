@@ -111,3 +111,14 @@ textarea:-ms-input-placeholder{  /* Internet Explorer 10-11 */
 	border: none;
 	background: #F5F5F5;
 }
+.btn {
+    display: block;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    margin: 32px 16px 0 16px;
+    background: #4a90e2;
+    line-height: 40px;
+    border-radius: 2px;
+}
