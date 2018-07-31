@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background-color: #578D5C;
+    width: 100%;
+    max-width: 640px;
+    margin: auto
+}
+.content-box{
+	margin: 40px 16px 24px 16px;
+	background: #fff;
+	border-radius: 4px;
+	box-shadow: 0px 2px 6px rgba(63,114,67,0.8);
+	text-align: center;
+	padding: 15% 0;
+}
+.content-box p{
+	font-size: 16px;
+	color: #999;
+}
+.barcode img{
+	height: auto;
+	width: 90%;
+	background-size: 100% 100%;
+	margin: 24px 0;
+	
+}
+.qrcode img{
+	height: auto;
+	width: 50%;
+	background-size: 100% 100%;
+}
+.explain{
+	line-height: 20px;
+	font-size: 14px;
+	color: #fff;
+}
+.explain p{
+	display: block;
+	margin: 0 16px;
+}
