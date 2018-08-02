@@ -43,19 +43,19 @@ table tr:nth-child(even) {
 	color: #666;
 	text-align: left;
 	padding: 12px;
-	border-bottom: 0.04em solid #ddd;
-	border-right: 0.04em solid #ddd;
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
 	
 }
 .detail td {
 	color: #333;
 	line-height: 18px;
-	border-bottom: 0.04em solid #ddd;
+	border-bottom: 1px solid #ddd;
 	padding: 12px;
 }
 .content {
 	padding: 12px;
-	border: 0.04em solid #ddd;
+	border: 1px solid #ddd;
 	font-size: 13px;
 }
 .content p {
@@ -72,7 +72,7 @@ table tr:nth-child(even) {
 	text-align: center;
 	margin-top: 16px;
 	padding-top: 16px;
-	border-top: 0.04em solid #ddd;
+	border-top: 1px solid #ddd;
 	font-size: 13px;
 	color: #578D5C;
 }
