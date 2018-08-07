@@ -31,7 +31,8 @@ ul{
 	overflow: hidden;
 }
 .content li:last-child{
-	border-bottom: none
+	border-bottom: none;
+	margin-bottom: 8px;
 }
 
 .content li p{
