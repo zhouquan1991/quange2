@@ -15,6 +15,7 @@ body {
 }
 
 ul{
+	background: #ff6600;
 	display: block;
 	list-style:none;
 }
@@ -44,6 +45,7 @@ ul{
 	color: #333;
 	float: right;
 }
+
 .list1{
 	font-size: 14px;
 	padding: 14px 16px;
@@ -56,4 +58,27 @@ ul{
 	display: block;
 	color: #333;
 	text-indent: 2em;
+}
+.list2{
+	margin-left: 16px;
+	padding: 14px 0;
+	width: 100%;
+	font-size: 14px;
+	overflow: hidden;
+	border-bottom: 1px solid #ddd;
+}
+.list2 p{
+	height: auto;
+	float: left;
+	width: 96px;
+	color: #999;
+}
+.text1{
+	width: 60%;
+	float: right;
+	margin-right: 32px;
+}
+.text1 span{
+	text-align: left;
+	color: #333;
 }
