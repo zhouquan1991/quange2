@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    width: 100%;
+    max-width: 640px;
+    margin: auto
+}
+.nodata{
+	text-align: center;
+	margin-top: 200px;
+	
+}
+.nodata img{
+	height: 88px;
+	width: 98px;
+	background-size: 100% 100%;
+}
+.nodata p{
+	font-size: 14px;
+	color: #999;
+	padding-top: 16px;
+}
