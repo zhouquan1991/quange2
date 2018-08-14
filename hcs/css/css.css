@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background-color: #0E1751;
+	font-size: 14px;
+}
+ul{
+	list-style:none;
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 311px;
+	height: 520px;
+	margin-left:-155px;
+	margin-top:-260px;
+}
+ul li{
+	height: 40px;
+}
+
+img{
+	display: block;
+	width: 100%;
+	background-size: 100% 100%;
+}
+.list1{
+	background: url(../images/pic-0.jpg) no-repeat center center;
+	background-size: 375px 40px;
+}
+.list2{
+	text-align: center;
+	line-height: 40px;
+	color: #87C3DF;
+	padding-bottom: 40px;
+}
+.list3{
+	height: 80px;
+	text-align: center;
+}
+.list3 p{
+	color: #87C3DF;
+}
+.list3 span{
+	color: #FFDD0D;
+	font-size: 32px;
+	font-family:impact;
+	line-height: 48px;
+}
+.list4{
+	background: url(../images/pic-1.jpg) no-repeat center center;
+	background-size: 375px 40px;
+}
+.list4 p{
+	font-size: 18px;
+	text-align: center;
+	width: 25%;
+	color: #fff;
+	padding-top: 16px;
+}
+.list5{
+	background: url(../images/pic-2.jpg) no-repeat center center;
+	background-size: 375px 40px;
+}
+.list6{
+	background: url(../images/pic-3.jpg) no-repeat center center;
+	background-size: 375px 40px;
+}
+.list7{
+	text-align: center;
+	background: url(../images/pic-4.jpg) no-repeat center center;
+	background-size: 375px 40px;
+}
+.list7 P{
+	display: inline-block;
+	font-size: 18px;
+	width: 25%;
+	color: #fff;
+	padding-top: 16px;
+}
+.list8{
+	background: url(../images/pic-5.jpg) no-repeat center center;
+	background-size: 375px 40px;
+}
+.list9{
+	background: url(../images/pic-6.jpg) no-repeat center center;
+	background-size: 375px 40px;
+}
+.list9 P{
+	text-align: center;
+	float: right;
+	width: 25%;
+	color: #fff;
+	padding-top: 16px;
+	font-size: 18px;
+}
+.list10{
+	background: url(../images/pic-7.jpg) no-repeat center center;
+	background-size: 375px 40px;
+}
+.list11 p{
+	text-align: center;
+	width: 25%;
+	display: inline-block;
+	color: #4082CE;
+	font-size: 13px;
+	line-height: 40px;
+}
