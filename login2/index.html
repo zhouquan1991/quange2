@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+</head>
+
+<body>
+    <div class="login">
+		<div class="login-title">广西医疗机构电子病历互联共享在线调阅平台</div>
+		<div class="login-left"></div>
+        <div class="login-right">
+            <p class="login-text">登录</p>
+			<div class="username"><p>452224199303031123</p><a href=""><img src="images/back.png" ></a></div>
+            <ul>
+                <li>
+                    <p>手机号</p>
+                    <div class="user-select" name="user-select">
+                        <input type="text" value="请选择手机号码" readonly>
+                        <ul>
+                            <li data-value="1">13522224444</li>
+                            <li data-value="2">18866663333</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <p>机构名称</p>
+                    <div class="user-select" name="user-select">
+                        <input type="text" value="请选择机构" readonly>
+                        <ul>
+                            <li data-value="1">实验小学</li>
+                            <li data-value="2">实验中学</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <p>短信验证码</p>
+                    <input class="vCode" type="text" placeholder="请输入验证码">
+                    <a class="getvCode" href="">获取验证码</a>
+                </li>
+            </ul>
+            <a href="" class="btn">登录</a>
+        </div>
+    </div>
+	<div class="hint-save">广西壮族自治区卫生计生统计信息中心自主研发</div>
+    <script type="text/javascript">
+        $(".user-select").click(function (e) {
+            $(this).find('ul').toggle();
+            e.stopPropagation();
+			});
+        $(".user-select li").hover(function (e) {
+            $(this).toggleClass("on");
+            e.stopPropagation();
+        });
+        $(".user-select li").click(function (e) {
+            var val = $(this).text();
+            $(this).parents(".user-select").find("input").val(val);
+            $(".user-select ul").hide();
+            e.stopPropagation();
+			});
+		$(document).click(function () {
+			$(".user-select ul").hide();
+		});
+    </script>
+</body>
+
+</html>

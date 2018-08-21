@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 14px;
+    font-family: Arial,Helvetica,Microsoft Yahei,sans-serif;
+}
+
+body {
+    background: url(../images/bg.jpg) center 0;
+}
+
+input {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+
+
+
+/*input:focus{
+	border-style:solid;  
+    border-color: #1B84ED;  
+    box-shadow: 0 0 3px #1B84ED;
+}*/
+
+input::-webkit-input-placeholder {
+    color: #afafaf;
+}
+
+input::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #afafaf;
+}
+
+input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #afafaf;
+}
+
+input:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #afafaf;
+}
+
+ul {
+    display: block;
+    list-style: none;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+}
+
+.login {
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    width:1000px;
+    margin-left:-500px;
+}
+.login-title{
+	font-size: 44px;
+	color: #FFFFFF;
+	font-weight: 900;
+	text-align: center;
+	padding-bottom: 64px;
+	letter-spacing:4px;
+}
+.login-left{
+	background: url(../images/login.jpg);
+	width: 600px;
+	height: 520px;
+	float: left;
+}
+
+.login-right {
+	background: #FFFFFF;
+    width: 304px;
+	height: 480px;
+    padding: 0px 48px;
+	padding-top: 40px;
+	float: left;
+}
+
+.login-text {
+    text-align: center;
+    font-size: 24px;
+    line-height: 32px;
+    color: #464C5B;
+    font-weight: 900;
+    padding-bottom: 16px;
+}
+.username{
+	text-align: center;
+	width: 200px;
+	height: 32px;
+	margin: 0 auto;
+	border-radius: 17px;
+	border: 1px solid #DDDEE1;
+	margin-bottom: 24px;
+	background: #FFFFFF;
+}
+.username p{
+	line-height: 32px;
+	float: left;
+	padding-left: 20px;
+}
+.username img{
+	width: 24px;
+	height: 24px;
+	float: right;
+	padding: 4px 4px 0px 0px;
+}
+
+.login-right ul li {
+    padding-bottom: 10px;
+}
+
+.login-right ul li p {
+    color: #626262;
+    padding-bottom: 6px;
+}
+
+.vCode {
+    width: 208px;
+    font-size: 14px;
+    border: 1px solid #DDDEE1;
+    height: 44px;
+    line-height: 44px;
+    padding: 0 16px;
+    padding: 0 16px;
+}
+
+.getvCode {
+    position: absolute;
+    font-style: normal;
+    height: 44px;
+    line-height: 44px;
+    width: 96px;
+    border: 1px solid #DDDEE1;
+    border-left: 1px solid transparent;
+    cursor: pointer;
+    text-align: center;
+    box-sizing: border-box;
+    color: #1B84ED;
+	background: #FFFFFF;
+}
+
+.getvCode:hover {
+    border-style: solid;
+    border-color: #1B84ED;
+}
+
+.user-select {
+    height: 40px;
+    border: 1px solid #DDDEE1;
+    position: relative;
+	cursor: pointer;
+}
+.user-select:after {
+    position: absolute;
+    right: 15px;
+    top: 18px;
+    width: 0;
+    height: 0;
+    content: "";
+    border-width: 6px 6px 0 6px;
+    border-style: solid;
+    border-color: #fff transparent;
+}
+
+.user-select:before {
+    position: absolute;
+    right: 13px;
+    top: 18px;
+    width: 0;
+    height: 0;
+    content: "";
+    border-width: 8px 8px 0 8px;
+    border-style: solid;
+    border-color: #AFAFAF transparent;
+}
+
+.user-select:hover:before{
+	border-color: #1B84ED transparent;
+}
+
+.user-select:hover {
+    border-style: solid;
+    border-color: #1B84ED;
+}
+
+.user-select input {
+    width: 246px;
+    margin: 0 16px;
+    font-size: 14px;
+    color: #333333;
+    height: 40px;
+    line-height: 40px;
+    outline: 0;
+}
+.user-select span.turn{
+	background: url(../images/icon_down.jpg);
+	display: block;
+	float: right;
+}
+.user-select span.turn.curr{
+	background: url(../images/icon_down_1.png);
+}
+
+.user-select ul {
+    background: #FFFFFF;
+    color: #333333;
+    width: 100%;
+    position: absolute;
+    left: -1px;
+    top: 41px;
+    display: none;
+    overflow: hidden;
+    max-height: 160px;
+    overflow-y: auto;
+    z-index: 9999;
+    border: 1px solid #DDDEE1;
+	border-top: none;
+}
+
+.user-select ul li {
+    line-height: 40px;
+    color: #333333;
+    overflow: hidden;
+    padding: 0 16px;
+    cursor: pointer;
+}
+
+.user-select ul li.on {
+    background-color: #EFF8FF;
+}
+
+.btn {
+    display: block;
+    height: 44px;
+    color: #fff;
+    text-align: center;
+    background: #1B84ED;
+    line-height: 44px;
+    margin-top: 20px;
+}
+.hint-save {
+    color: #FFFFFF;
+    position: absolute;
+    text-align: center;
+	width: 100%;
+	bottom: 40px;
+}
