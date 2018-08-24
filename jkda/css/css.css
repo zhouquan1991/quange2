@@ -24,7 +24,7 @@ a,a:hover,a:active,a:visited,a:link,a:focus{
     left:50%;
     margin-left:-160px;
 }
-.banner span{
+.banner a{
 	background: url(../images/ss.png);
 	background-size: 100% 100%;
 	width: 24px;
