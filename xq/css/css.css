@@ -58,6 +58,7 @@ ul{
 	display: block;
 	color: #333;
 	text-indent: 2em;
+	line-height: 20px;
 }
 .list2{
 	margin-left: 16px;
@@ -73,9 +74,12 @@ ul{
 	color: #999;
 }
 .text1{
+	line-height: 20px;
+	margin-top: -3px;
 	width: 60%;
 	float: right;
-	margin-right: 32px;
+	margin-right: 16px;
+	text-align: right
 }
 .text1 span{
 	text-align: left;
