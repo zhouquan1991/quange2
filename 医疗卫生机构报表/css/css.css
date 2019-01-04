@@ -1,0 +1,170 @@
+body, div, ul, li, ol, h1, h2, h3, h4, h5, h6, input, textarea, select, p, dl, dt, dd, a, img, button, form, table, th, tr, td, tbody, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: Helvetica, sans-serif;
+	font-size: 14px;
+	color: #333;
+}
+a, a:hover, a:visited, a:link, a:active {
+    text-decoration:none;
+    outline: none;
+	box-sizing: border-box;
+}
+ul{
+	display: block;
+	list-style:none;
+}
+.tab-1{
+	position: fixed;
+	top: 0;
+}
+.layui-tab-title{
+	background: #fff;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	width: 100%;
+}
+.tab-2{
+	background: linear-gradient(rgba(236,245,255,100), rgba(255,255,255,100));
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	width: 100%;
+}
+
+.layui-tab .layui-tab-title li{
+	font-size: 15px;
+	color: #666;
+	padding: 0;
+}
+.layui-tab .tab-1 li{
+	margin: 0 40px;
+	font-size: 15px;
+	color: #666;
+}
+.layui-tab .tab-2 li{
+	font-size: 13px;
+	color: #666;
+	border-radius: 60px;
+	line-height: 24px;
+	margin: 0 4px;
+	padding: 0 8px;
+}
+.layui-tab .tab-1 .layui-this{
+	color: #5B8EDB;
+	font-weight: bold;
+}
+.layui-tab .tab-2 .layui-this{
+	color: #fff;
+	background: #5B8EDB;
+	border-radius: 60px;
+	line-height: 24px;
+}
+.layui-tab .tab-1 .layui-this:after {
+    border: none;
+	border-bottom: 2px solid #5B8EDB;
+	height: 43px;
+}
+.layui-tab .tab-2 .layui-this:after {
+	border: none;
+}
+.layui-tab-content{
+	padding: 0;
+	margin-top: 45px;
+}
+.layui-tab-content-1{
+	padding: 0;
+	margin-top: 16px;
+}
+.layui-tab-item{
+	
+}
+.Select-Date{
+	font-size: 14px;
+	width: 100%;
+	padding:16px;
+}
+.Select-Date input{
+	background: url(../img/date.png);
+	background-repeat: no-repeat;
+	background-position: 12px 9px;
+	background-size: 12px 12px;
+	padding-left: 36px;
+	display: inline-block;
+	height: 32px; 
+	width: 88px;
+	line-height: 16px;
+	border: 1px solid #e6e6e6;  
+	background-color: #fff;  
+	border-radius: 2px;
+	outline: none;
+	color: #333;
+}
+
+.bb-tab li.active{
+	border-bottom: 2px solid #5b8edb;
+	font-size: 15px;
+	font-weight: 900;
+	color: #5B8EDB;
+	height: 43px;
+}
+.content li{
+	display: none;
+	padding: 16px;
+	margin-top: 44px;
+	background: #fff;
+	font-size: 12px;
+	overflow-x: hidden;
+}
+.table-container{
+	padding: 0 16px;
+	overflow-x: scroll;
+}
+.table-container table{
+	border-collapse: collapse;
+	background: #fff;
+    border: none;
+	width: 382px;
+	table-layout: fixed;
+}
+.table-container table th{
+	height: 32px;
+	border:1px solid #eaeaea;
+	font-weight: 400;
+	color: #666;
+	text-align: center;
+	line-height: 18px;
+	background: #eef6ff;
+}
+.table-container table tr:nth-child(odd) {
+	background: #f9fcff
+}
+.table-container table td{
+	height: 32px;
+	padding: 0 4px;
+	word-wrap:break-word;
+	text-align: center;
+	border:1px solid #eaeaea;
+	border-top: none;
+	color: #333;
+	line-height: 13px;
+}
+
+.table-container table td.date-edit input{
+	background: url(../img/edit.png);
+	background-repeat: no-repeat;
+	background-position: 0 9px;
+	background-size: 12px 12px;
+	font-size: 13px;
+	padding: 8px 0;
+	padding-left: 20px;
+	margin-left: 12px;
+	border: none;
+	outline: none;
+	width:  55%;
+	line-height: 16px;
+	color: #333;
+}
