@@ -118,6 +118,9 @@ table{
 	overflow-x: scroll;
 	-webkit-overflow-scrolling: touch;
 }
+.table-container::-webkit-scrollbar {
+    display: none;
+}
 .table-container table{
 	background: #fff;
 	width: 440px;
