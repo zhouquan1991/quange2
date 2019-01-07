@@ -133,6 +133,7 @@ table{
 	line-height: 14px;
 	background: #eef6ff;
 	padding: 4px 0;
+	font-size: 12px;
 }
 .table-container table tr:nth-child(odd) {
 	background: #f9fcff
@@ -145,6 +146,7 @@ table{
 	border:0.05rem solid #eaeaea;
 	color: #333;
 	line-height: 15px;
+	font-size: 12px;
 }
 
 .table-container table td.date-edit input{
