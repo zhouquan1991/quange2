@@ -22,7 +22,6 @@ table{
 .tab-1{
 	position: fixed;
 	top: 0;
-	z-index:0
 }
 .layui-tab-title{
 	background: #fff;
@@ -30,7 +29,6 @@ table{
 	line-height: 44px;
 	text-align: center;
 	width: 100%;
-	z-index:0
 }
 
 .tab-2{
@@ -115,6 +113,7 @@ table{
 	padding: 0 16px;
 	overflow-x: scroll;
 	-webkit-overflow-scrolling: touch;
+	overflow-y: hidden;
 }
 .table-container table{
 	background: #fff;
