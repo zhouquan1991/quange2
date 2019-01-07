@@ -22,6 +22,7 @@ table{
 .tab-1{
 	position: fixed;
 	top: 0;
+	z-index: 1;
 }
 .layui-tab-title{
 	background: #fff;
@@ -39,6 +40,7 @@ table{
 	width: 100%;
 	position: fixed;
 	top: 45px;
+	z-index: 1;
 }
 
 .layui-tab .layui-tab-title li{
