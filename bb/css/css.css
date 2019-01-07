@@ -3,13 +3,13 @@ body, div, ul, li, ol, h1, h2, h3, h4, h5, h6, input, textarea, select, p, dl, d
     padding: 0;
 }
 html {
-    font-family: Helvetica, sans-serif;
+    	font-family: Helvetica, sans-serif;
 	font-size: 14px;
 	color: #333;
 }
 a, a:hover, a:visited, a:link, a:active {
-    text-decoration:none;
-    outline: none;
+    	text-decoration:none;
+    	outline: none;
 	box-sizing: border-box;
 }
 ul{
@@ -21,7 +21,11 @@ ul{
 	position: fixed;
 	top: 0;
 	z-index: 1;
+<<<<<<< HEAD
 	border: 0.05rem solid #eaeaea;  
+=======
+	border-bottom: 0.05rem solid #eaeaea;
+>>>>>>> f1ac1d77ce177e49e7d34ceb4b7dec3c7e8856db
 }
 .layui-tab-title{
 	background: #fff;
@@ -40,7 +44,11 @@ ul{
 	position: fixed;
 	top: 45px;
 	z-index: 1;
+<<<<<<< HEAD
 	border: 0.05rem solid #eaeaea;  
+=======
+	border-bottom: 0.05rem solid #eaeaea;
+>>>>>>> f1ac1d77ce177e49e7d34ceb4b7dec3c7e8856db
 }
 
 .layui-tab .layui-tab-title li{
@@ -72,7 +80,7 @@ ul{
 	line-height: 28px;
 }
 .layui-tab .tab-1 .layui-this:after {
-    border: none;
+    	border: none;
 	border-bottom: 2px solid #5498ff;
 	height: 43px;
 }
@@ -85,7 +93,14 @@ ul{
 }
 .tab-content-1{
 	padding: 0;
+<<<<<<< HEAD
 	margin-top: 98px;
+=======
+	margin-top: 102px;
+}
+.layui-tab-item{
+	
+>>>>>>> f1ac1d77ce177e49e7d34ceb4b7dec3c7e8856db
 }
 
 .Select-Date{
@@ -102,7 +117,11 @@ ul{
 	height: 32px; 
 	width: 88px;
 	line-height: 16px;
+<<<<<<< HEAD
 	border: 0.05rem solid #eaeaea;  
+=======
+	border: 0.05rem solid #e6e6e6;  
+>>>>>>> f1ac1d77ce177e49e7d34ceb4b7dec3c7e8856db
 	background-color: #fff;  
 	border-radius: 2px;
 	outline: none;
@@ -117,7 +136,11 @@ ul{
 }
 .table-container table{
 	background: #fff;
+<<<<<<< HEAD
 	width: 390px;
+=======
+	width: 440px;
+>>>>>>> f1ac1d77ce177e49e7d34ceb4b7dec3c7e8856db
 	table-layout: fixed;
 }
 .table-container table th{
@@ -130,6 +153,7 @@ ul{
 	line-height: 14px;
 	background: #eef6ff;
 	padding: 4px 0;
+	font-size: 12px;
 }
 .table-container table tr:nth-child(odd) {
 	background: #f9fcff
@@ -143,6 +167,7 @@ ul{
 	border:0.05rem solid #eaeaea;
 	color: #333;
 	line-height: 15px;
+	font-size: 12px;
 }
 
 .table-container table td.date-edit input{
@@ -180,5 +205,5 @@ ul{
     background: #5498ff;
     line-height: 40px;
     margin-top: 20px;
-	border-radius: 4px;
+    border-radius: 4px;
 }
