@@ -93,7 +93,7 @@ table{
 .Select-Date input{
 	background: url(../img/date.png);
 	background-repeat: no-repeat;
-	background-position: 12px 9px;
+	background-position: 12px 10px;
 	background-size: 12px 12px;
 	padding-left: 36px;
 	display: inline-block;
@@ -110,15 +110,20 @@ table{
 .table-container{
 	padding: 0 16px;
 	overflow-x: scroll;
+	-webkit-overflow-scrolling: touch;
 }
 .table-container table{
 	background: #fff;
 	width: 480px;
 	table-layout: fixed;
+	border: 1px solid #e6e6e6;
+	border-right: none;
+	border-bottom: none;
 }
 .table-container table th{
 	height: 32px;
-	border:1px solid #eaeaea;
+	border-right:1px solid #eaeaea;
+	border-bottom:1px solid #eaeaea;
 	font-weight: 400;
 	color: #666;
 	text-align: center;
@@ -135,6 +140,7 @@ table{
 	word-wrap:break-word;
 	text-align: left;
 	border:1px solid #eaeaea;
+	border-left: none;
 	border-top: none;
 	color: #333;
 	line-height: 15px;
@@ -143,7 +149,7 @@ table{
 .table-container table td.date-edit input{
 	background: url(../img/edit.png);
 	background-repeat: no-repeat;
-	background-position: 0 9px;
+	background-position: 0 10px;
 	background-size: 12px 12px;
 	font-size: 13px;
 	padding: 8px 0;
