@@ -37,6 +37,8 @@ table{
 	line-height: 40px;
 	text-align: center;
 	width: 100%;
+	position: fixed;
+	top: 45px;
 }
 
 .layui-tab .layui-tab-title li{
@@ -81,7 +83,7 @@ table{
 }
 .tab-content-1{
 	padding: 0;
-	margin-top: 16px;
+	margin-top: 102px;
 }
 .layui-tab-item{
 	
@@ -100,7 +102,7 @@ table{
 	height: 32px; 
 	width: 88px;
 	line-height: 16px;
-	border: 1px solid #e6e6e6;  
+	border: 0.036ren solid #e6e6e6;  
 	background-color: #fff;  
 	border-radius: 2px;
 	outline: none;
@@ -116,14 +118,12 @@ table{
 	background: #fff;
 	width: 480px;
 	table-layout: fixed;
-	border: 1px solid #e6e6e6;
 	border-right: none;
 	border-bottom: none;
 }
 .table-container table th{
 	height: 32px;
-	border-right:1px solid #eaeaea;
-	border-bottom:1px solid #eaeaea;
+	border:0.036rem solid #eaeaea;
 	font-weight: 400;
 	color: #666;
 	text-align: center;
@@ -139,9 +139,7 @@ table{
 	padding: 0 4px;
 	word-wrap:break-word;
 	text-align: left;
-	border:1px solid #eaeaea;
-	border-left: none;
-	border-top: none;
+	border:0.036rem solid #eaeaea;
 	color: #333;
 	line-height: 15px;
 }
