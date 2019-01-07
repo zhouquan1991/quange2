@@ -23,6 +23,7 @@ table{
 	position: fixed;
 	top: 0;
 	z-index: 1;
+	border-bottom: 0.05rem solid #5498ff;
 }
 .layui-tab-title{
 	background: #fff;
@@ -41,6 +42,7 @@ table{
 	position: fixed;
 	top: 45px;
 	z-index: 1;
+	border-bottom: 0.05rem solid #5498ff;
 }
 
 .layui-tab .layui-tab-title li{
@@ -115,7 +117,6 @@ table{
 	padding: 0 16px;
 	overflow-x: scroll;
 	-webkit-overflow-scrolling: touch;
-	overflow-y: hidden;
 }
 .table-container table{
 	background: #fff;
