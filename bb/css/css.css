@@ -141,7 +141,6 @@ table{
 	word-wrap:break-word;
 	text-align: left;
 	border:0.05rem solid #eaeaea;
-	border-top:none;
 	color: #333;
 	line-height: 15px;
 }
