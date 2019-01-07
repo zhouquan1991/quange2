@@ -23,7 +23,7 @@ table{
 	position: fixed;
 	top: 0;
 	z-index: 1;
-	border-bottom: 0.05rem solid #5498ff;
+	border-bottom: 0.05rem solid #e6e6e6;
 }
 .layui-tab-title{
 	background: #fff;
@@ -42,7 +42,7 @@ table{
 	position: fixed;
 	top: 45px;
 	z-index: 1;
-	border-bottom: 0.05rem solid #5498ff;
+	border-bottom: 0.05rem solid #e6e6e6;
 }
 
 .layui-tab .layui-tab-title li{
