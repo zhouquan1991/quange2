@@ -3,13 +3,13 @@ body, div, ul, li, ol, h1, h2, h3, h4, h5, h6, input, textarea, select, p, dl, d
     padding: 0;
 }
 html {
-    font-family: Helvetica, sans-serif;
+    	font-family: Helvetica, sans-serif;
 	font-size: 14px;
 	color: #333;
 }
 a, a:hover, a:visited, a:link, a:active {
-    text-decoration:none;
-    outline: none;
+    	text-decoration:none;
+    	outline: none;
 	box-sizing: border-box;
 }
 ul{
@@ -74,7 +74,7 @@ table{
 	line-height: 28px;
 }
 .layui-tab .tab-1 .layui-this:after {
-    border: none;
+    	border: none;
 	border-bottom: 2px solid #5498ff;
 	height: 43px;
 }
@@ -122,6 +122,7 @@ table{
 	background: #fff;
 	width: 440px;
 	table-layout: fixed;
+	border-collapse: collapse;
 }
 .table-container table th{
 	height: 32px;
@@ -143,7 +144,6 @@ table{
 	word-wrap:break-word;
 	text-align: left;
 	border:0.05rem solid #eaeaea;
-	border-collapse: collapse;
 	color: #333;
 	line-height: 15px;
 	font-size: 12px;
@@ -184,5 +184,5 @@ table{
     background: #5498ff;
     line-height: 40px;
     margin-top: 20px;
-	border-radius: 4px;
+    border-radius: 4px;
 }
