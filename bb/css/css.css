@@ -16,12 +16,12 @@ ul{
 	display: block;
 	list-style:none;
 }
-table{
-	border-collapse: collapse;
-}
+
 .tab-1{
 	position: fixed;
 	top: 0;
+	z-index: 1;
+	border: 0.05rem solid #eaeaea;  
 }
 .layui-tab-title{
 	background: #fff;
@@ -37,6 +37,10 @@ table{
 	line-height: 40px;
 	text-align: center;
 	width: 100%;
+	position: fixed;
+	top: 45px;
+	z-index: 1;
+	border: 0.05rem solid #eaeaea;  
 }
 
 .layui-tab .layui-tab-title li{
@@ -81,14 +85,12 @@ table{
 }
 .tab-content-1{
 	padding: 0;
-	margin-top: 16px;
+	margin-top: 98px;
 }
-.layui-tab-item{
-	
-}
+
 .Select-Date{
 	font-size: 14px;
-	padding:16px;
+	padding:12px;
 }
 .Select-Date input{
 	background: url(../img/date.png);
@@ -100,7 +102,7 @@ table{
 	height: 32px; 
 	width: 88px;
 	line-height: 16px;
-	border: 1px solid #e6e6e6;  
+	border: 0.05rem solid #eaeaea;  
 	background-color: #fff;  
 	border-radius: 2px;
 	outline: none;
@@ -108,22 +110,20 @@ table{
 }
 
 .table-container{
-	padding: 0 16px;
+	padding: 0 12px;
 	overflow-x: scroll;
+	overflow-y: auto;
 	-webkit-overflow-scrolling: touch;
 }
 .table-container table{
 	background: #fff;
-	width: 480px;
+	width: 350px;
 	table-layout: fixed;
-	border: 1px solid #e6e6e6;
-	border-right: none;
-	border-bottom: none;
 }
 .table-container table th{
+	font-size: 12px;
 	height: 32px;
-	border-right:1px solid #eaeaea;
-	border-bottom:1px solid #eaeaea;
+	border:0.05rem solid #eaeaea;
 	font-weight: 400;
 	color: #666;
 	text-align: center;
@@ -135,13 +135,12 @@ table{
 	background: #f9fcff
 }
 .table-container table td{
+	font-size: 12px;
 	height: 32px;
 	padding: 0 4px;
 	word-wrap:break-word;
 	text-align: left;
-	border:1px solid #eaeaea;
-	border-left: none;
-	border-top: none;
+	border:0.05rem solid #eaeaea;
 	color: #333;
 	line-height: 15px;
 }
@@ -171,7 +170,7 @@ table{
 	margin: 0 8px;
 	display: inline-block;
 	width: 42%;
-	margin-bottom: 16px;
+	margin-bottom: 12px;
 }
 .btn li a{
     display: block;
