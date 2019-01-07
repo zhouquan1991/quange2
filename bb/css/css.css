@@ -113,7 +113,7 @@ table{
 	padding: 0 16px;
 	overflow-x: scroll;
 	-webkit-overflow-scrolling: touch;
-	z-index:-1
+	z-index:-999
 }
 .table-container table{
 	background: #fff;
@@ -141,6 +141,7 @@ table{
 	word-wrap:break-word;
 	text-align: left;
 	border:0.05rem solid #eaeaea;
+	border-bottom:none;
 	color: #333;
 	line-height: 15px;
 }
