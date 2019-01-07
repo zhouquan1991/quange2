@@ -122,7 +122,6 @@ table{
 	background: #fff;
 	width: 440px;
 	table-layout: fixed;
-	border-collapse: collapse;
 }
 .table-container table th{
 	height: 32px;
