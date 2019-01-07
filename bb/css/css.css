@@ -120,10 +120,8 @@ table{
 }
 .table-container table{
 	background: #fff;
-	width: 480px;
+	width: 440px;
 	table-layout: fixed;
-	border-right: none;
-	border-bottom: none;
 }
 .table-container table th{
 	height: 32px;
