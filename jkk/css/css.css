@@ -67,6 +67,7 @@ ul{
 .con-list li{
 	padding: 14px 16px;
 	border-bottom: 0.05rem solid #eaeaea;
+	overflow: hidden;
 }
 .con-list li:last-child{
 	border-bottom: none;
