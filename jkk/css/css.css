@@ -15,6 +15,7 @@ ul{
 }
 .Health_card{
 	margin: 15px 13px;
+	margin-bottom: 12px;
 	position: relative;
 }
 .Health_card img{
@@ -44,6 +45,7 @@ ul{
 	background: #ffffff;
 	margin: 15px 13px;
 	margin-top: 0;
+	margin-bottom: 12px;
 	text-align: center;
 	border-radius: 10px;
 	padding: 16px;
