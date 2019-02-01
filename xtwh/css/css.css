@@ -1,0 +1,22 @@
+body, div, ul, li, ol, h1, h2, h3, h4, h5, h6, input, textarea, select, p, dl, dt, dd, a, img, button, form, table, th, tr, td, tbody, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: Helvetica, sans-serif;
+}
+.gg_tittle img{
+	display: block;
+	height: auto;
+	width: 100%;
+}
+.gg_text{
+	font-size: 14px;
+	padding: 16px;
+	padding-top: 24px;
+	line-height: 24px;
+	color: #333333;
+}
+.gg_text p{
+	text-indent: 28px;
+}
