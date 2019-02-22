@@ -39,7 +39,7 @@ a, a:hover, a:visited, a:link, a:active {
 	background: none;
 }
 .title{
-	margin: 24px 60px;
+	margin: 32px 60px;
 	margin-bottom: 16px;
 }
 .title img{
@@ -59,7 +59,7 @@ a, a:hover, a:visited, a:link, a:active {
 	background: #222838;
 	border: 0.05rem solid #2e3c56;
 	font-size: 14px;
-	line-height: 40px;
+	line-height: 48px;
 	margin-top: 8px;
 	width: 100%;
 	color: #c5cfd5;
