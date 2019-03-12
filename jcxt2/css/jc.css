@@ -165,10 +165,6 @@ ul {
 	text-align: center;
 	white-space: nowrap;
 	text-overflow: ellipsis;
-<<<<<<< HEAD
-=======
-	cursor: pointer;
->>>>>>> df286d217de16fc6d5d7b836957cd31c9e586b7c
 }
 
 .layui-tab-title .layui-this{
