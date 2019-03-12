@@ -144,7 +144,7 @@ ul {
 	line-height: 24px;
 	text-align: center;
 	font-size: 12px;
-	display: block;
+	display: table;
 	border: none;
 	overflow: hidden;
 	width: 100%;
@@ -156,7 +156,6 @@ ul {
 	line-height: 24px;
 	display: table-cell;
 	overflow: hidden;
-	width: 1%;
 	color: #3fc3fd;
 	-webkit-transition: background-color .1s linear;
 	transition: background-color .1s linear;
