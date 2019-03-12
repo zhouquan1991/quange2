@@ -148,7 +148,7 @@ ul {
 	border: none;
 	overflow: hidden;
 	width: 100%;
-	table-layout: auto;
+	table-layout: fixed;
 }
 
 .layui-tab-title li{
@@ -156,13 +156,10 @@ ul {
 	display: table-cell;
 	overflow: hidden;
 	color: #3fc3fd;
-	-webkit-transition: background-color .1s linear;
-	transition: background-color .1s linear;
 	text-align: center;
 	white-space: nowrap;
 	text-overflow: ellipsis;
 	cursor: pointer;
-
 }
 
 .layui-tab-title .layui-this{
