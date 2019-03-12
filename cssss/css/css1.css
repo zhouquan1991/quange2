@@ -7,12 +7,6 @@ ul{
 	list-style:none;
 }
 
-.tab-1{
-	position: fixed;
-	top: 0;
-	z-index: 1;
-	border: 0.05rem solid #eaeaea;  
-}
 .layui-tab-title{
 	overflow: hidden;
 	background: #fff;
@@ -23,12 +17,8 @@ ul{
 	position: relative;
 	left: 0;
 	white-space: nowrap;
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
-	transition: all .2s;
-	-webkit-transition: all .2s
 }
-.layui-tab .layui-tab-title li{
+.layui-tab-title li{
 	font-size: 15px;
 	color: #666;
 	padding: 0;
@@ -36,31 +26,16 @@ ul{
 	*display: inline;
 	*zoom: 1;
 	vertical-align: middle;
-	transition: all .2s;
-	-webkit-transition: all .2s;
 	position: relative;
 	line-height: 40px;
 	text-align: center;
 	cursor: pointer
 }
 
-.layui-tab .tab-1 li{
-	margin: 0 40px;
-	font-size: 15px;
-	color: #666;
-}
-
-.layui-tab .tab-1 .layui-this{
-	color: #5498ff;
+.layui-tab-title .layui-this{
+	color: #ff6600;
 	font-weight: bold;
 }
-
-.layui-tab .tab-1 .layui-this:after {
-    border: none;
-	border-bottom: 2px solid #5498ff;
-	height: 43px;
-}
-
 
 .layui-tab-item {
 	display: none
