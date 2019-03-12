@@ -149,7 +149,6 @@ ul {
 	overflow: hidden;
 	width: 100%;
 	table-layout: fixed;
-	-webkit-touch-callout: none
 }
 
 .layui-tab .layui-tab-title li{
