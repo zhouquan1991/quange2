@@ -157,8 +157,7 @@ ul {
 	table-layout: fixed;
 }
 
-.layui-tab .layui-tab-title li{
-	border-radius: 50px;
+.layui-tab-title li{
 	line-height: 24px;
 	display: table-cell;
 	overflow: hidden;
@@ -166,9 +165,13 @@ ul {
 	text-align: center;
 	white-space: nowrap;
 	text-overflow: ellipsis;
+<<<<<<< HEAD
+=======
+	cursor: pointer;
+>>>>>>> df286d217de16fc6d5d7b836957cd31c9e586b7c
 }
 
-.layui-tab .layui-tab-title .layui-this{
+.layui-tab-title .layui-this{
 	color: #fff;
 	background: #3fc3fd;
 	border-radius: 50px;
