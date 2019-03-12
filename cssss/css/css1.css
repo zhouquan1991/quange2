@@ -1,0 +1,70 @@
+body, div, ul, li, ol, h1, h2, h3, h4, h5, h6, input, textarea, select, p, dl, dt, dd, a, img, button, form, table, th, tr, td, tbody, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    margin: 0;
+    padding: 0;
+}
+ul{
+	display: block;
+	list-style:none;
+}
+
+.tab-1{
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	border: 0.05rem solid #eaeaea;  
+}
+.layui-tab-title{
+	overflow: hidden;
+	background: #fff;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	width: 100%;
+	position: relative;
+	left: 0;
+	white-space: nowrap;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	transition: all .2s;
+	-webkit-transition: all .2s
+}
+.layui-tab .layui-tab-title li{
+	font-size: 15px;
+	color: #666;
+	padding: 0;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	vertical-align: middle;
+	transition: all .2s;
+	-webkit-transition: all .2s;
+	position: relative;
+	line-height: 40px;
+	text-align: center;
+	cursor: pointer
+}
+
+.layui-tab .tab-1 li{
+	margin: 0 40px;
+	font-size: 15px;
+	color: #666;
+}
+
+.layui-tab .tab-1 .layui-this{
+	color: #5498ff;
+	font-weight: bold;
+}
+
+.layui-tab .tab-1 .layui-this:after {
+    border: none;
+	border-bottom: 2px solid #5498ff;
+	height: 43px;
+}
+
+
+.layui-tab-item {
+	display: none
+}
+.layui-show {
+	display: block !important
+}
