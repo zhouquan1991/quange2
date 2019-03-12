@@ -148,11 +148,10 @@ ul {
 	border: none;
 	overflow: hidden;
 	width: 100%;
-	table-layout: fixed;
+	table-layout: auto;
 }
 
-.layui-tab .layui-tab-title li{
-	border-radius: 50px;
+.layui-tab-title li{
 	line-height: 24px;
 	display: table-cell;
 	overflow: hidden;
@@ -162,10 +161,11 @@ ul {
 	text-align: center;
 	white-space: nowrap;
 	text-overflow: ellipsis;
+	cursor: pointer;
 
 }
 
-.layui-tab .layui-tab-title .layui-this{
+.layui-tab-title .layui-this{
 	color: #fff;
 	background: #3fc3fd;
 	border-radius: 50px;
