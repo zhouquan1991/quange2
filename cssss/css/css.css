@@ -1,0 +1,46 @@
+body, div, ul, li, ol, h1, h2, h3, h4, h5, h6, input, textarea, select, p, dl, dt, dd, a, img, button, form, table, th, tr, td, tbody, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    margin: 0;
+    padding: 0;
+}
+html {
+	font-family: Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+body {
+	background: #1c202a;
+	color: #c5cfd5;
+}
+.layui-tab-title{
+	font-size: 12px;
+	display: table;
+	overflow: hidden;
+	line-height: 24px;
+	text-align: center;
+	width: 100%;
+	position: relative;
+	white-space: nowrap;
+	table-layout: auto;
+}
+.layui-tab-title li{
+	position: relative;
+	cursor: pointer;
+	display: table-cell;
+	overflow: hidden;
+	color: #3fc3fd;
+	text-align: center;
+}
+
+.layui-tab-title .layui-this{
+	color: #fff;
+	background: #3fc3fd;
+	border-radius: 50px;
+	line-height: 24px;
+}
+
+.layui-tab-item {
+	display: none
+}
+.layui-show {
+	display: block !important
+}
