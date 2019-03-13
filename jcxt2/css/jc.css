@@ -146,28 +146,23 @@ ul {
 
 .layui-tab-title {
 	padding: 8px 0 16px 0;
-	line-height: 24px;
-	text-align: center;
 	font-size: 12px;
 	display: table;
-	border: none;
 	overflow: hidden;
+	line-height: 24px;
+	text-align: center;
 	width: 100%;
 	position: relative;
 	white-space: nowrap;
-	table-layout:auto;
+	table-layout: auto;
 }
-
 .layui-tab-title li{
 	position: relative;
-	border-radius: 50px;
-	line-height: 24px;
+	cursor: pointer;
 	display: table-cell;
 	overflow: hidden;
 	color: #3fc3fd;
 	text-align: center;
-	white-space: nowrap;
-	text-overflow: ellipsis;
 }
 .layui-tab-title .layui-this{
 	color: #fff;
