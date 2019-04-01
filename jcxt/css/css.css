@@ -65,7 +65,7 @@ a, a:hover, a:visited, a:link, a:active {
 .express-area-box header p {
 	text-align: center;
 	font-size: 14px;
-	line-height: 40px;
+	line-height: 48px;
 }
 
 .express-area-box header .back,
@@ -73,7 +73,7 @@ a, a:hover, a:visited, a:link, a:active {
 	position: absolute;
 	top: 0;
 	width: 38px;
-	height: 40px;
+	height: 48px;
 }
 
 .express-area-box header .back {
@@ -95,11 +95,11 @@ a, a:hover, a:visited, a:link, a:active {
 }
 
 .area-list li {
-	padding: .5rem;
+	padding: 0 16px;
 	border-bottom: 1px solid #2e3c56;
 	text-align: justify;
 	font-size: 14px;
-	line-height: 20px;
+	line-height: 40px;
 }
 /*遮罩层*/
 .mask {
