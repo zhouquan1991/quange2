@@ -23,9 +23,10 @@
 			    </a>
 			</section>
 		</div>
-       
+        <!--遮罩层-->
+        <div id="areaMask" class="mask" catchtouchmove="move" @touchmove.prevent></div>
         <!--选择地区弹层-->
-        <section id="areaLayer" class="express-area-box">
+        <section id="areaLayer" class="express-area-box" @touchmove.prevent>
             <header>
                 <p>选择城市</p>
                 <a id="backUp" class="back" href="javascript:void(0)" title="返回"></a>
@@ -35,8 +36,6 @@
                 <ul id="areaList" class="area-list"></ul>
             </article>
         </section>
-        <!--遮罩层-->
-        <div id="areaMask" class="mask" catchtouchmove="move"></div>
 		<div class="btn_sure">
 			<a href="https://zhouquan1991.github.io/quange2/jcxt2/index.html" >确定</a>
 		</div>
