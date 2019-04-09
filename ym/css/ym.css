@@ -5,38 +5,40 @@ body, div, ul, li, ol, h1, h2, h3, h4, h5, h6, input, textarea, select, p, dl, d
 html {
     font-family: Helvetica, sans-serif;
 	font-size: 14px;
+	background: #fff6fb;
 }
 body{
-	background: #fff;
+	background: url(../img/bg.png);
 }
 table{  
 	border-collapse:collapse;  
 	border-spacing:0;  
 }
 .ym-title{
-	font-size: 16px;
-	font-weight: bold;
-	text-align: center;
-	padding: 16px 0;
-	color: #333;
+	margin: 1.2rem 2.4rem;
+}
+.ym-title img{
+	display: block;
+	height: auto;
+	width: 100%;
 }
 .ym-table{
 	padding: 0 16px;
 	padding-bottom: 16px;
 }
 .ym-table table{
-	background: #fff;
+	background-color:rgba(255,255,255,0.6);
 	width: 100%;
 	table-layout: fixed;
 }
 .ym-table table th{
 	font-size: 12px;
 	height: 32px;
-	border:0.05rem solid #eaeaea;
+	border:0.05rem solid #ffe5f4;
 	font-weight: 400;
 	color: #333;
 	line-height: 14px;
-	background: #eef6ff;
+	background: #ffd2e5;
 	padding: 4px 0;
 	word-wrap:break-word;
 }
@@ -46,7 +48,7 @@ table{
 	height: 32px;
 	padding: 0 4px;
 	word-wrap:break-word;
-	border:0.05rem solid #eaeaea;
+	border:0.05rem solid #ffe5f4;
 	color: #666;
 	line-height: 15px;
 	text-align: center
