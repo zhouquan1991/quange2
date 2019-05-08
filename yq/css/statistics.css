@@ -1,0 +1,36 @@
+
+.username{
+	line-height: 40px;
+	padding: 0 16px;
+}
+.username i{
+	display: block;
+	float: left;
+	margin-top: 11px;
+	width: 18px;
+	height: 18px;
+	background: url(../img/usericon.png) no-repeat 0 0 ;
+	background-size: 100%;
+	margin-right: 4px;
+}
+.layui-form{
+	padding: 0 8px;
+}
+.username a.untied{
+	display: block;
+	float: right;
+	color: #23b3fe;
+}
+.select-block-left{
+	float: left;
+	width: 50%;
+	margin: 8px 0;
+}
+.select-block-right{
+	float: right;
+	width: 50%;
+	margin: 8px 0;
+}
+.layui-form-select{
+	margin: 0 8px;
+}

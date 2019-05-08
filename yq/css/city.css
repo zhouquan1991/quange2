@@ -1,0 +1,95 @@
+.layui-tab{
+	padding: 0;
+	margin: 0;
+}
+.layui-tab-title li {
+	display: block;
+	border-bottom: 1px solid #eee;
+	line-height: 44px;
+}
+
+.layui-tab-title {
+	height: 100%;
+	display: block;
+	float: left;
+	width: 128px;
+	border: none;
+	background: #f7f7f7;
+}
+
+.layui-tab-content {
+	background: #fff;
+	padding: 0;
+	margin: 12px;
+	margin-left: 140px;
+	box-shadow: 0 0 6px rgba(0, 0, 0, .05);
+}
+.layui-tab-title li.layui-this{
+	background: #fff;
+	border: none;
+	border-bottom: 1px solid #eee;
+	color: #333;
+	font-weight: bold;
+	height: 44px;
+}
+.layui-tab-title li.layui-this:after{
+	border: none;
+	border-bottom: 1px solid #eee;
+	height: 45px;
+}
+.layui-collapse{
+	border: none;
+}
+.layui-colla-item{
+	border-top: 1px solid #eee;
+	background: #f9f9f9
+}
+.layui-colla-title{
+	padding: 0 10px 0 16px;
+	background: #fff;
+	height: 44px;
+}
+.layui-colla-icon{
+	position: static;
+	float: right;
+}
+.layui-colla-content{
+	margin: 0;
+	padding: 0;
+}
+.layui-colla-item a{
+	display: block;
+	background: #fff;
+	line-height: 44px;
+	padding: 0 10px 0 16px;
+}
+.layui-colla-item a i{
+	display: block;
+	position: relative;
+	float: right;
+	top: 14px;
+	width: 12px;
+	height: 12px;
+	background: url(../img/link-arrow.png) no-repeat 0 0;
+	background-size: 100%;
+}
+.layui-colla-content a{
+	display: block;
+	background: #f9f9f9;
+	line-height: 44px;
+	padding: 0 10px 0 32px;
+	border-bottom: 1px solid #eee;
+}
+.layui-colla-content a:last-child{
+	border-bottom: none;
+}
+.layui-colla-content a i{
+	display: block;
+	position: relative;
+	float: right;
+	top: 14px;
+	width: 12px;
+	height: 12px;
+	background: url(../img/link-arrow.png) no-repeat 0 0;
+	background-size: 100%;
+}
