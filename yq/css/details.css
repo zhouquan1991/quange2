@@ -2,8 +2,7 @@
 	font-size: 16px;
 	font-weight: bold;
 	line-height: 48px;
-	border-bottom: 0.05rem solid #eee;
-	padding-left: 16px;
+	text-align: center;
 }
 
 .details-list ul li{
