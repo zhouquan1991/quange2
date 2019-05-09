@@ -12,7 +12,7 @@
 .layui-tab-title li {
 	display: block;
 	border-bottom: 0.05rem solid #eee;
-	line-height: 44px;
+	line-height: 48px;
 }
 
 .layui-tab-title {
@@ -36,14 +36,14 @@
 	border-bottom: 0.05rem solid #eee;
 	color: #333;
 	font-weight: bold;
-	height: 44px;
-	background: url(../img/block.jpg) no-repeat 0 13px;
+	height: 48px;
+	background: url(../img/block.jpg) no-repeat 0 15px;
 	background-color: #fff;
 }
 .layui-tab-title li.layui-this:after{
 	border: none;
 	border-bottom: 0.05rem solid #eee;
-	height: 45px;
+	height: 49px;
 }
 .layui-collapse{
 	border: none;
@@ -55,7 +55,7 @@
 .layui-colla-title{
 	padding: 0 10px 0 16px;
 	background: #fff;
-	height: 44px;
+	height: 48px;
 }
 .layui-colla-icon{
 	position: static;
@@ -69,14 +69,14 @@
 .layui-colla-item a{
 	display: block;
 	background: #fff;
-	line-height: 44px;
+	line-height: 48px;
 	padding: 0 10px 0 16px;
 }
 .layui-colla-item a i{
 	display: block;
 	position: relative;
 	float: right;
-	top: 16px;
+	top: 18px;
 	width: 11px;
 	height: 11px;
 	background: url(../img/link-arrow.png) no-repeat 0 0;
@@ -85,7 +85,7 @@
 .layui-colla-content a{
 	display: block;
 	background: #f9f9f9;
-	line-height: 44px;
+	line-height: 48px;
 	padding: 0 10px 0 30px;
 	border-bottom: 0.05rem solid #eee;
 }
@@ -96,7 +96,7 @@
 	display: block;
 	position: relative;
 	float: right;
-	top: 16px;
+	top: 18px;
 	width: 11px;
 	height: 11px;
 	background: url(../img/link-arrow.png) no-repeat 0 0;
