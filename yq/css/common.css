@@ -18,3 +18,7 @@ a,a:hover,a:active,a:visited,a:link,a:focus{
     outline:none;
     text-decoration: none;
 }
+table{  
+	border-collapse:collapse;  
+	border-spacing:0;  
+}
