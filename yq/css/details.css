@@ -30,11 +30,19 @@
 	font-size: 12px;
 	font-weight: normal;
 }
-.details-list img{
-	display: block;
-	width: 16px;
-	margin-left: 16px;
-	margin-right:8px;
+.details-list ul li i{
+	display: inline-block;
 	float: left;
-	padding-top: 1px;
+	width: 14px;
+	height: 14px;
+	margin: 3px 8px 0 16px;
 }
+.details-list ul li i.icon-standard{
+	background: url(../img/icon-standard.png) no-repeat;
+	background-size: 100%;
+}
+.details-list ul li i.icon-substandard{
+	background: url(../img/icon-substandard.png) no-repeat;
+	background-size: 100%;
+}
+
