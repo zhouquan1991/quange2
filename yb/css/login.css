@@ -18,6 +18,10 @@ a,a:hover,a:active,a:visited,a:link,a:focus{
     outline:none;
     text-decoration: none;
 }
+input{
+	border: none;
+	outline: none;
+}
 input::-webkit-input-placeholder {
 	color: #71768f;
 	font-size: 14px;
