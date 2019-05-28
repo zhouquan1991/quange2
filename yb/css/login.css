@@ -21,6 +21,7 @@ a,a:hover,a:active,a:visited,a:link,a:focus{
 input{
 	border: none;
 	outline: none;
+	-webkit-appearance: none; 
 }
 input::-webkit-input-placeholder {
 	color: #71768f;
