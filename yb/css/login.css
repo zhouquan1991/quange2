@@ -1,0 +1,103 @@
+body, div, ul, li, ol, h1, h2, h3, h4, h5, h6, input, textarea, select, p, dl, dt, dd, a, img, button, form, table, th, tr, td, tbody, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+}
+html {
+    font-family: Helvetica, sans-serif;
+	font-size: 14px;
+	color: #333;
+}
+ul{
+	display: block;
+	list-style:none;
+}
+a,a:hover,a:active,a:visited,a:link,a:focus{
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+    outline:none;
+    text-decoration: none;
+}
+input::-webkit-input-placeholder {
+	color: #71768f;
+	font-size: 14px;
+}
+body{
+	background: #202229;
+}
+.header img{
+	display: block;
+	height: auto;
+	width: 100%;
+}
+
+.main{
+	margin: 32px auto;
+	margin-top: 0;
+}
+.login{
+	margin: 0 auto;
+}
+.login p{
+	line-height: 36px;
+	font-size: 20px;
+	color: #333;
+	text-align: center;
+	font-weight: bold;
+}
+.line{
+	width: 40px;
+	background: #1A9FF3;
+	height: 3px;
+	margin: 0 auto;
+	margin-bottom: 32px;
+}
+
+.login{
+	margin: 0 auto;
+}
+.input-block{
+	padding: 8px 32px;
+}
+.login input{
+	width: 100%;
+    padding: 15px 16px;
+    display: block;
+    border: 1px solid #434656;
+	font-size: 14px;
+	outline: none;
+	border-radius: 2px;
+	background: #3b3e50;
+	color: #f3f5ff;
+}
+.login input:focus{
+	border: 1px solid #429388;
+}
+.ver-code{
+	width: 100%;
+	float: left;
+	padding-right: 112px;
+}
+.get-ver-code{
+	float: right;
+	position: absolute;
+	right: 32px;
+	width: 96px;
+	height: 48px;
+	background: url(../img/ver-code.jpg) no-repeat;
+}
+.sure-btn{
+	display: block;
+	height: 48px;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	background: #429388;
+	line-height: 48px;
+	border-radius: 2px;
+	margin: 40px 32px 16px 32px;
+}
+.login-hint{
+	text-align: right;
+	padding: 16px 0;
+}
