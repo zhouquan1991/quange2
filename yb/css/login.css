@@ -27,8 +27,12 @@ input::-webkit-input-placeholder {
 	color: #71768f;
 	font-size: 14px;
 }
+button:disabled{ 
+	background-color: #ff6600;
+}
 body{
 	background: #202229;
+	
 }
 .header img{
 	display: block;
@@ -68,7 +72,6 @@ body{
 	width: 100%;
     padding: 15px 16px;
     display: block;
-    border: 1px solid #434656;
 	font-size: 14px;
 	outline: none;
 	border-radius: 2px;
@@ -87,9 +90,21 @@ body{
 	float: right;
 	position: absolute;
 	right: 32px;
-	width: 96px;
-	height: 48px;
-	background: url(../img/ver-code.jpg) no-repeat;
+}
+.get-ver-code button{
+    width: 96px;
+    height: 46px;
+    border: none;
+    outline: none;
+    text-align: center;
+	border-radius: 2px;
+	font-size: 14px;
+	color: #fff;
+	background: #1ec0ff;
+}
+.get-ver-code button:disabled{
+	background: #67d4ff;
+	color: #fff;
 }
 .sure-btn{
 	display: block;
