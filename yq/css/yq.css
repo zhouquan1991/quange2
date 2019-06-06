@@ -50,7 +50,7 @@ a,a:hover,a:active,a:visited,a:link,a:focus{
     height: 32px;
     margin: 0 auto;
     background: url(../img/icon.png) no-repeat 0 0;
-    background-size: 200%;
+    background-size: 96px 32px;
 	margin-bottom: 12px;
 }
 .app-content a dl dd{
@@ -64,8 +64,9 @@ a,a:hover,a:active,a:visited,a:link,a:focus{
 	background-position: -32px top;
 }
 .app-content a:nth-of-type(3) dt{
-	background-position: -32px top;
+	background-position: -64px top;
 }
+
 .app-footer{
 	width: 100%;
 	position: absolute;
