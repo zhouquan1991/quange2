@@ -1,0 +1,77 @@
+body, div, ul, li, ol, h1, h2, h3, h4, h5, h6, input, textarea, select, p, dl, dt, dd, a, img, button, form, table, th, tr, td, tbody, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+}
+html {
+    font-family: Helvetica, sans-serif;
+	font-size: 14px;
+}
+body{
+	background: #f6f6f6;
+	width: 100%;
+}
+ul{
+	display: block;
+	list-style:none;
+}
+a,a:hover,a:active,a:visited,a:link,a:focus{
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+    outline:none;
+    text-decoration: none;
+}
+.app-header img{
+	display: block;
+	height: auto;
+	width: 100%;
+}
+.app-content{
+	background: #fff;
+}
+.app-content a{
+	display: table;
+	position: relative;
+	float: left;
+	width: 33.333333%;
+	border-bottom: 1px solid #eee;
+	border-right: 1px solid #eee;
+	background: #fff;
+	padding: 24px 0;
+}
+.app-content a dl{
+	display: table-cell;
+	vertical-align: middle;	
+	position: relative;
+	text-align: center;
+}
+.app-content a > dl dt{
+	width: 36px;
+    height: 36px;
+    margin: 0 auto;
+    background: url(../img/jy-pic.png) no-repeat 0 0;
+    background-size: 72px 36px;
+	margin-bottom: 12px;
+}
+.app-content a dl dd{
+	color: #333;
+	font-size: 12px;
+	line-height: 16px
+}
+.app-content a:nth-of-type(3n+0){
+	border-right: none;
+}
+.app-content a:nth-of-type(2) dt{
+	background-position: -36px top;
+}
+.app-content a:nth-of-type(3) dt{
+	background-position: -72px top;
+}
+
+.app-footer{
+	width: 100%;
+	position: absolute;
+	bottom: 16px;
+	text-align: center;
+	color: #333;
+}
