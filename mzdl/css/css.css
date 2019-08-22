@@ -1,0 +1,73 @@
+body, div, ul, li, ol, h1, h2, h3, h4, h5, h6, input, textarea, select, p, dl, dt, dd, a, img, button, form, table, th, tr, td, tbody, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    margin: 0;
+    padding: 0;
+}
+html{
+	font-size: 14px;
+}
+body{
+	 background: #d99fc8;
+}		
+ul {
+    display: block;
+    list-style: none;
+}
+input {
+	border: none;
+	outline: none;
+}
+a,a:hover,a:active,a:visited,a:link,a:focus{
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+    outline:none;
+    text-decoration: none;
+}
+.container{
+	background: #fff;
+	padding: 16px;
+	border-radius: 2px;
+	margin: 24px;
+	margin-top: 80px;
+}
+.content{
+	text-align: center;
+}
+.content p{
+	margin: 8px 0;
+}
+.content img{
+	display: block;
+	margin: auto;
+	width: 78px;
+	margin-top: 8px;
+	margin-bottom: 18px;
+}
+.content-list{
+	padding-top: 8px;
+}
+.content-list li {
+	margin: 0 16px;
+	margin-bottom: 16px;
+    background: #fff;
+	height: 40px;
+	border-radius: 3px;
+}
+.phone-number {
+	width: 90%;
+	font-size: 14px;
+	padding: 11px 0 11px 8px;
+}
+input::-webkit-input-placeholder{
+  color: #999;
+}
+.btn{
+	display: block;
+	height: 40px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	background: #d99fc8;
+	line-height: 40px;
+	border-radius: 3px;
+}
