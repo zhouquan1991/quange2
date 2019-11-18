@@ -8,6 +8,10 @@ html, body {
     height: 100%;
     overflow: hidden;
 }
+.page1 {
+	position: relative;
+	height: 667px;
+}
 .page1 img{
 	display: block;
 	width: 100%;
