@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>每日疫情报告</title>
+		<link rel="stylesheet" type="text/css" href="layui/css/layui.css">
+		<link rel="stylesheet" type="text/css" href="css/tb.css">
+	</head>
+	<body>
+		<div class="title">
+			每日疫情报告
+		</div>
+		<div class="summary">
+			根据广西为了做好应对新型冠状病毒引起的肺炎疫情，全区部分医院开通了针对肺炎的免费问诊，具体服务人员均为各医院相关专业医生。有需要的公众可以选择自己熟悉的医院，通过关注公众号、点击链接的方式获取免费问诊服务。
+		</div>
+		<div class="content">
+			<form class="layui-form" action="">
+				<dl>
+					<dt><p>*</p>1.您的姓名</dt>
+					<dd><input type="text" placeholder="请输入"></dd>
+				</dl>
+				<dl>
+					<dt><p>*</p>2.您目前的体温(℃)</dt>
+					<dd><input type="text" placeholder="请输入"></dd>
+				</dl>
+				<dl>
+					<dt><p>*</p>3.您是否出现有呼吸道感染的症状？<span>【多选题】</span></dt>
+					<dd>
+						<ul>
+							<li><input type="checkbox" name="" lay-skin="primary" title="无"></li>
+							<li><input type="checkbox" name="" lay-skin="primary" title="发热"></li>
+							<li><input type="checkbox" name="" lay-skin="primary" title="胸闷"></li>
+							<li><input type="checkbox" name="" lay-skin="primary" title="咽痛"></li>
+							<li><input type="checkbox" name="" lay-skin="primary" title="鼻塞"></li>
+							<li><input type="checkbox" name="" lay-skin="primary" title="全身乏力"></li>
+							<li><input type="checkbox" name="" lay-skin="primary" title="头疼"></li>
+							<li><input type="checkbox" name="" lay-skin="primary" title="肌肉疼痛"></li>
+							<li><input type="checkbox" name="" lay-skin="primary" title="呼吸困难/急促"></li>
+							<li id="Topic3"><input type="checkbox" name="c3" lay-skin="primary" value="其他" title="其他" lay-filter="c3"/>
+							<input type="text" name="" placeholder="请输入"/></li>
+						</ul>
+					</dd>
+				</dl>
+				<dl class="count" style="display: none;">
+					<dt><p>*</p>4.是否有到医院检查</dt>
+					<dd>
+						<ul>
+							<li id="Topic4"><input type="radio" name="r4" value="是" title="是" lay-filter="r4"></li>
+							<li><input type="radio" name="r4" value="否" title="否" lay-filter="r4"></li>
+						</ul>
+					</dd>
+				</dl>
+				<dl class="count1" style="display: none;">
+					<dt><p>*</p>5.医院检查结果</dt>
+					<dd>
+						<ul>
+							<li><input type="radio" name="r5" value="" title="新冠肺炎" ></li>
+							<li><input type="radio" name="r5" value="" title="非新冠肺炎" ></li>
+							<li><input type="radio" name="r5" value="" title="目前未出诊断，疑似新冠肺炎" ></li>
+						</ul>	
+					</dd>
+				</dl>
+				<dl>
+					<dt><p>*</p>6.今天...</dt>
+					<dd>
+						<ul>
+							<li id="Topic6"><input type="radio" name="r6" value="接触过" title="接触过" lay-filter="r6"></li>
+							<li><input type="radio" name="r6" value="未接触过" title="未接触过" lay-filter="r6"></li>
+						</ul>
+					</dd>
+				</dl>
+				<dl class="count2" style="display: none;">
+					<dt><p>*</p>7.接触的是<span>【多选题】</span></dt>
+					<dd>
+						<ul>
+							<li><input type="checkbox" name="" lay-skin="primary" value="新冠肺炎患者" title="新冠肺炎患者" ></li>
+							<li><input type="checkbox" name="" lay-skin="primary" value="未接触过" title="未接触过" ></li>
+							<li><input type="checkbox" name="" lay-skin="primary" value="未接触过" title="未接触过" ></li>
+							<li><input type="checkbox" name="" lay-skin="primary" value="其他" title="其他" ><input type="text" name="" placeholder="请输入"/></li>
+						</ul>
+					</dd>
+				</dl>
+				<dl class="count2" style="display: none;">
+					<dt><p>*</p>8.与您的关系是<span>【多选题】</span></dt>
+					<dd>
+						<ul>
+							<li><input type="checkbox" name="" lay-skin="primary" value="同住人" title="同住人"></li>
+							<li><input type="checkbox" name="" lay-skin="primary" value="亲戚" title="亲戚"></li>
+							<li><input type="checkbox" name="" lay-skin="primary" value="朋友" title="朋友"></li>
+							<li><input type="checkbox" name="" lay-skin="primary" value="同事" title="同事"></li>
+							<li><input type="checkbox" name="" lay-skin="primary" value="邻居" title="邻居"></li>
+							<li><input type="checkbox" name="" lay-skin="primary" value="其他" title="其他">
+							<input type="text" name="" placeholder="请输入"/></li>
+						</ul>
+					</dd>
+				</dl>
+				<dl>
+					<dt><p>*</p>9.目前您....</dt>
+					<dd>
+						<ul>
+							<li id="Topic9"><input type="radio" name="r9" value="无" title="无" lay-filter="r9"></li>
+							<li><input type="radio" name="r9" value="居家隔离" title="居家隔离" lay-filter="r9"></li>
+							<li><input type="radio" name="r9" value="住院治疗" title="住院治疗" lay-filter="r9"></li>
+							<li><input type="radio" name="r9" value="其他" title="其他" lay-filter="r9">
+							<input type="text" name="" placeholder="请输入"/></li>
+						</ul>
+					</dd>
+				</dl>
+				<dl class="count3" style="display: none;">
+					<dt><p>*</p>10.采取居家隔离....</dt>
+					<dd><input type="text" placeholder="请输入"></dd>
+				</dl>
+				<dl>
+					<dt><p>*</p>11.今天您和....</dt>
+					<dd>
+						<ul>
+							<li><input type="radio" name="r11" value="否" title="否" ></li>
+							<li><input type="radio" name="r11" value="是" title="是，家庭聚会（请填写人数）">
+							<input type="text" name="" placeholder="请填写"/></li>
+							<li><input type="radio" name="r11" value="是" title="是，朋友聚会（请填写人数）">
+							<input type="text" name="" placeholder="请填写"/></li>
+						</ul>
+					</dd>
+				</dl>
+				<dl>
+					<dt><p>*</p>12.目前您的位置</dt>
+					<dd>
+						<ul>
+							<li id="Topic12"><input type="radio" name="r12" value="南宁" title="南宁" lay-filter="r12"></li>
+							<li><input type="radio" name="r12" value="广西其他区" title="广西其他区" lay-filter="r12"></li>
+							<li><input type="radio" name="r12" value="区外" title="区外" lay-filter="r12"></li>
+						</ul>
+					</dd>
+				</dl>
+				<dl class="count4" style="display: none;">
+					<dt><p>*</p>13.您计划什么时间返回南宁</dt>
+					<dd><input class="fh-time" type="text" placeholder="请选择"></dd>
+				</dl>
+				<dl class="count4" style="display: none;">
+					<dt><p>*</p>14.行程中是否途经湖北</dt>
+					<dd>
+						<ul>
+							<li><input type="radio" name="r14" value="是" title="是（具体行程）" >
+							<input type="text" name="" placeholder="请填写"/></li>
+							<li><input type="radio" name="r14" value="否" title="否"></li>
+							<li><input type="radio" name="r14" value="未制定行程" title="未制定行程"></li>
+						</ul>
+					</dd>
+				</dl>
+				<dl>
+					<dt><p>*</p>15.其他要报告事项</dt>
+					<dd><textarea rows="" cols="" placeholder="请填写"></textarea></dd>
+				</dl>
+				<div class="btn">
+					<a href="" >提交</a>
+				</div>
+			</form>
+		</div>
+		<script src="layui/layui.js" type="text/javascript"></script>
+		<script type="text/javascript" src="js/jquery-2.1.4.min.js" charset="utf-8"></script>
+		<script type="text/javascript" src="js/selector.js"></script>
+		<script>
+			layui.use('form', function() {
+				var form = layui.form;
+				form.on('checkbox(c3)', function (data) {
+				    if ($('#Topic3 input[name="c3"]:checked ').val() == "其他") {
+				        $(".count").show();
+				    }
+				    else {
+				        $(".count").hide();
+				    }
+				});
+				form.on('radio(r4)', function (data) {
+				    if ($('#Topic4 input[name="r4"]:checked ').val() == "是") {
+				        $(".count1").show();
+				    }
+				    else {
+				        $(".count1").hide();
+				    }
+				});
+				form.on('radio(r6)', function (data) {
+				    if ($('#Topic6 input[name="r6"]:checked ').val() == "接触过") {
+				        $(".count2").show();
+				    }
+				    else {
+				        $(".count2").hide();
+				    }
+				});
+				form.on('radio(r9)', function (data) {
+				    if ($('#Topic9 input[name="r9"]:checked ').val() == "无") {
+				        $(".count3").hide();
+				    }
+				    else {
+				        $(".count3").show();
+				    }
+				});
+				form.on('radio(r12)', function (data) {
+				    if ($('#Topic12 input[name="r12"]:checked ').val() == "南宁") {
+				        $(".count4").hide();
+				    }
+				    else {
+				        $(".count4").show();
+				    }
+				});
+			});
+			$(function () {
+				// 年月日
+				$.dateSelector({
+					evEle: '.fh-time',
+					startYear: '1960',
+					endYear: '2050',
+					timeBoo: false,
+					afterAction: function (d1, d2, d3) {
+					$('.fh-time').val(d1 + '-' + d2 + '-' + d3);
+					}
+				});
+			});
+		</script>	
+	</body>
+</html>
