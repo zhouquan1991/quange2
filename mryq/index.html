@@ -28,16 +28,16 @@
 					<dt><p>*</p>3.您是否出现有呼吸道感染的症状？<span>【多选题】</span></dt>
 					<dd>
 						<ul>
-							<li><input type="checkbox" name="" lay-skin="primary" title="无"></li>
-							<li><input type="checkbox" name="" lay-skin="primary" title="发热"></li>
-							<li><input type="checkbox" name="" lay-skin="primary" title="胸闷"></li>
-							<li><input type="checkbox" name="" lay-skin="primary" title="咽痛"></li>
-							<li><input type="checkbox" name="" lay-skin="primary" title="鼻塞"></li>
-							<li><input type="checkbox" name="" lay-skin="primary" title="全身乏力"></li>
-							<li><input type="checkbox" name="" lay-skin="primary" title="头疼"></li>
-							<li><input type="checkbox" name="" lay-skin="primary" title="肌肉疼痛"></li>
-							<li><input type="checkbox" name="" lay-skin="primary" title="呼吸困难/急促"></li>
-							<li id="Topic3"><input type="checkbox" name="c3" lay-skin="primary" value="其他" title="其他" lay-filter="c3"/>
+							<li><input type="checkbox" name="c3" lay-skin="primary" title="无"></li>
+							<li><input type="checkbox" name="c3" lay-skin="primary" title="发热"></li>
+							<li><input type="checkbox" name="c3" lay-skin="primary" title="胸闷"></li>
+							<li><input type="checkbox" name="c3" lay-skin="primary" title="咽痛"></li>
+							<li><input type="checkbox" name="c3" lay-skin="primary" title="鼻塞"></li>
+							<li id="Topic3"><input type="checkbox" name="c3" lay-skin="primary" value="show" title="全身乏力" lay-filter="c3"/></li>
+							<li id="Topic3"><input type="checkbox" name="c3" lay-skin="primary" value="show" title="头疼" lay-filter="c3"/></li>
+							<li id="Topic3"><input type="checkbox" name="c3" lay-skin="primary" value="show" title="肌肉疼痛" lay-filter="c3"/></li>
+							<li id="Topic3"><input type="checkbox" name="c3" lay-skin="primary" value="show" title="呼吸困难/急促" lay-filter="c3"/></li>
+							<li id="Topic3"><input type="checkbox" name="c3" lay-skin="primary" value="show" title="其他" lay-filter="c3"/>
 							<input type="text" name="" placeholder="请输入"/></li>
 						</ul>
 					</dd>
@@ -164,7 +164,7 @@
 			layui.use('form', function() {
 				var form = layui.form;
 				form.on('checkbox(c3)', function (data) {
-				    if ($('#Topic3 input[name="c3"]:checked ').val() == "其他") {
+				    if ($('#Topic3 input[name="c3"]:checked ').val() == "show") {
 				        $(".count").show();
 				    }
 				    else {
@@ -180,7 +180,7 @@
 				    }
 				});
 				form.on('radio(r6)', function (data) {
-				    if ($('#Topic6 input[name="r6"]:checked ').val() == "接触过") {
+				    if ($('#Topic6 input[name="r6"]:checked ').val() == "show") {
 				        $(".count2").show();
 				    }
 				    else {
