@@ -1,0 +1,68 @@
+.title{
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 48px;
+}
+.xq-txt{
+	text-align: center;
+	padding: 10px 16px;
+	line-height: 32px;
+	background: #f7f7f7;
+	margin: 0 16px;
+}
+.xq-txt p{
+	text-indent: 28px;
+	text-align: left;
+	color: #666;
+	line-height: 21px;
+	padding-bottom: 8px;
+}
+.list{
+	padding: 12px 16px;
+}
+.list-title{
+	margin: 16px 16px 4px 16px;
+}
+.list-title img{
+	display: block;
+	height: auto;
+	width: 100%;
+}
+.list-item{
+	display: block;
+	background: url(../img/link-arrow.png) no-repeat right center;
+	background-size: 23px 11px;
+	border: 1px solid #e6e6e6;
+	padding: 16px 16px;
+	margin-bottom: 12px;
+	background-color: #fff;
+	color: #333;
+}
+.ewm{
+	background: #ffffff;
+	margin: 16px;     
+	margin-bottom: 12px;
+	text-align: center;
+	border-radius: 10px;
+	padding: 16px;
+	border-radius: 6px;
+	box-shadow: 0 1px 25px 0 rgba(179, 192, 208, .35);
+}
+.ewm img{
+	width: 80%;
+	height: auto;
+}
+
+.ewm-Tips{
+	text-align: center;
+	padding: 0 16px;
+	line-height: 32px;
+	margin-bottom: 16px;
+}
+.ewm-Tips p{
+	text-align: left;
+	color: #999;
+	line-height: 21px;
+	
+}

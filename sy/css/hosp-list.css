@@ -1,0 +1,66 @@
+ .layui-form {
+ 	padding: 16px 8px 8px 8px;
+	display: -webkit-flex;
+	display: flex;
+ }
+ .layui-form-select {
+ 	margin: 0 8px;
+	width: 100%;
+ }
+
+.layui-form-select dl dd.layui-this {
+    background-color: #5498ff;
+    color: #fff;
+}
+.title{
+	line-height: 48px;
+	font-size: 16px;
+	text-align: center;
+	background: #f4f4f4;
+}
+
+.hosp{
+	border-radius: 6px;
+	padding: 0 16px;
+}
+.hosp-list li{
+	padding: 12px 0;
+	border-bottom: 1px solid #eee;
+}
+
+.hosp-list li a{
+	display: -webkit-flex;
+	display: flex;
+	align-items: center;
+}
+.imgBox{
+	width: 75px;
+	height: 55px;
+	border: 1px solid #eee;
+}
+.imgBox img{
+	width: 75px;
+	height: 55px;
+}
+.TextBox{
+	overflow: hidden;
+	margin-left: 10px;
+}
+.TextBox p{
+	font-size: 12px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #999;
+	line-height: 18px;
+}
+.TextBox p.mane{
+	font-size: 14px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #333;
+	font-weight: bold;
+	line-height: 21px;
+}
+

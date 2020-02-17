@@ -1,0 +1,162 @@
+.header img {
+	display: block;
+	height: auto;
+	width: 100%;
+}
+
+.notice {
+	margin: 0 16px;
+	background: url(../img/notice.png) no-repeat center;
+	background-position-x: left;
+	padding-left: 28px;
+	color: #ff9414;
+}
+.nav {
+	background: #fff;
+	overflow: hidden;
+	padding: 16px 8px 12px 8px;
+	position: relative;
+	margin: 0 16px;
+	border-radius: 6px;
+	box-shadow: 0 2px 20px 0 rgba(179, 192, 208, .3);
+}
+
+.nav ul li {
+	text-align: center;
+	width: 25%;
+	float: left;
+}
+
+.nav ul li a {
+	display: block;
+}
+
+.nav a img {
+	width: 60px;
+	height: 60px;
+	vertical-align: middle;
+}
+
+.nav a p {
+	font-size: 14px;
+	color: #333;
+	line-height: 28px;
+}
+
+.hosp {
+	background: #FFFFFF;
+	margin: 16px;
+	border-radius: 6px;
+	box-shadow: 0 0 20px 0 rgba(179, 192, 208, .3);
+	padding: 0 16px;
+}
+
+.hosp-title {
+	line-height: 44px;
+	border-bottom: 1px solid #eee;
+}
+
+.hosp-title i {
+	display: inline-block;
+	vertical-align: middle;
+	width: 6px;
+	height: 10px;
+	background: #5498ff;
+	margin-right: 6px;
+	margin-bottom: 2px;
+}
+
+.hosp-title a {
+	display: inline-block;
+	float: right;
+	color: #666;
+}
+
+.hosp-title a em {
+	background: url(../img/CombinedShape.png) no-repeat;
+	width: 7px;
+	height: 12px;
+	vertical-align: middle;
+	background-size: 100% 100%;
+	display: inline-block;
+	margin-left: 8px;
+	margin-top: -2px;
+}
+
+.hosp-list li {
+	padding: 12px 0;
+	border-bottom: 1px solid #eee;
+}
+
+.hosp-list li:last-child {
+	border-bottom: none;
+}
+
+.hosp-list li a {
+	display: -webkit-flex;
+	display: flex;
+	align-items: center;
+}
+
+.imgBox {
+	width: 75px;
+	height: 55px;
+	border: 1px solid #eee;
+}
+
+.imgBox img {
+	width: 75px;
+	height: 55px;
+}
+
+.TxtBox {
+	overflow: hidden;
+	margin-left: 10px;
+}
+
+.TxtBox p {
+	font-size: 12px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #999;
+	line-height: 18px;
+}
+
+.TxtBox p.mane {
+	font-size: 14px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #333;
+	font-weight: bold;
+	line-height: 21px;
+}
+.flink{
+	background: #ffffff;
+	margin: 16px;     
+	margin-bottom: 12px;
+	border-radius: 10px;
+	padding: 16px;
+	border-radius: 6px;
+	box-shadow: 0 1px 25px 0 rgba(179, 192, 208, .35);
+	text-align: center;
+}
+.flink p{
+	line-height: 28px;
+}
+.flink p b{
+	font-size: 16px;
+}
+.flink-img{
+	padding-top: 12px;
+	display: inline-block;
+}
+.flink-img img{
+	width: 240px;
+}
+.footer {
+	text-align: center;
+	color: #666;
+	line-height: 40px;
+}
