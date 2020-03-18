@@ -1,10 +1,15 @@
+
 .list{
 	padding-bottom: 32px;
+}
+.title{
+	padding: 16px 16px 0 16px;
 }
 .title img{
 	isplay: block;
 	height: auto;
 	width: 100%;
+	border-radius: 6px;
 }
 .list ul li{
 	margin-left: 16px;

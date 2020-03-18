@@ -40,6 +40,7 @@ body{
 	font-weight: bold;
 	padding: 2px;
 	color: #333;
+	height: 24px;
 }
 .table-container table td{
 	border:1px solid #dddddd;
@@ -58,6 +59,18 @@ body{
 	width: 11px;
 	height: 11px;
 	border:1px solid #666;
+}
+.color1{
+	color: #13bdfc;
+}
+.color2{
+	color: #9384ea;
+}
+.color3{
+	color: #ff9d44;
+}
+.color4{
+	color: #fc7070;
 }
 .color1 table{
 	background: #eafaff;
