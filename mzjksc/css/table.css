@@ -1,0 +1,104 @@
+body{
+	padding: 12px;
+}
+.table-container{
+	background: #ffffff;
+	padding: 0 0 12px 0;
+}
+.table-title{
+	text-align: center;
+	padding: 4px 0 12px 0;
+	font-size: 16px;
+	font-weight: bold;
+}
+.table-title p{
+	font-size: 14px;
+	font-weight: normal;
+	color: #666;
+	margin-top: 8px;
+}
+.table-title span{
+	display: block;
+	font-size: 14px;
+	font-weight: normal;
+	color: #666;
+	margin-top: 8px;
+	text-align: left;
+	text-indent: 2em;
+}
+.table-head{
+	font-weight: bold;
+	text-align: center;
+	padding: 6px 0;
+	color: #333;
+	border:1px solid #dddddd;
+}
+.table-container table th{
+	border:1px solid #dddddd;
+	border-top: none;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 2px;
+	color: #333;
+	height: 24px;
+}
+.table-container table td{
+	border:1px solid #dddddd;
+	border-top: none;
+	font-size: 12px;
+	padding: 2px 4px;
+	text-align: left;
+	color: #666;
+	height: 36px;
+}
+.table-container table td i{
+	display: inline-block;
+	margin-bottom: -2px;
+	margin-left: 6px;
+	margin-right: 2px;
+	width: 11px;
+	height: 11px;
+	border:1px solid #666;
+}
+.color1{
+	color: #13bdfc;
+}
+.color2{
+	color: #9384ea;
+}
+.color3{
+	color: #ff9d44;
+}
+.color4{
+	color: #fc7070;
+}
+.color1 table{
+	background: #eafaff;
+}
+.color2 table{
+	background: #eafff1;
+}
+.color3 table{
+	background: #f2eaff;
+}
+.color4 table{
+	background: #fff0ea;
+}
+.color5 table{
+	background: #fffdea;
+}
+.table-notes{
+	font-size: 12px;
+	font-weight: bold;
+}
+.table-notes p{
+	text-indent: 2em;
+	font-size: 12px;
+	color: #666;
+	font-weight: normal;
+}
+.table-notes span{
+	font-size: 12px;
+	color: #666;
+	font-weight: normal;
+}
