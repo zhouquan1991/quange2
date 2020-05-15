@@ -1,0 +1,113 @@
+body, div, ul, li, ol, h1, h2, h3, h4, h5, h6, input, textarea, select, p, dl, dt, dd, a, img, button, form, table, th, tr, td, tbody, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    margin: 0;
+    padding: 0;
+}
+html{
+	font-family: Helvetica, sans-serif;
+	font-size: 14px;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+	table-layout: fixed;
+	width: 100%;
+}
+ul,li{
+  list-style-type: none;
+}
+a,a:hover,a:active,a:visited,a:link,a:focus {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-tap-highlight-color: transparent;
+	outline: none;
+	text-decoration: none;
+}
+body{
+    background-color: #f0f0f0;
+    width: 100%;
+    max-width: 677px;
+    margin: auto
+}
+a{
+    text-decoration: none;
+}
+.banner{
+    height: 128px;
+    background-color: #189822;
+}
+.banner_pic{
+    width:320px;
+    position:absolute;
+    left:50%;
+    margin-left:-160px;
+}
+.jb_btn{
+	display: block;
+	float: left;
+	color: #FFFFFF;
+	font-size: 10px;
+	border: 1px solid #FFFFFF;
+	border-radius: 2px;
+	width: 40px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	margin-left: 12px;
+	margin-top: 12px;
+}
+.ss_btn{
+	color: #FFFFFF;
+	font-size: 10px;
+	text-align: center;
+	display: block;
+	float: right;
+	margin-right: 12px;
+	margin-top: 12px;
+}
+.ss_btn p{
+	margin-top: -4px;
+}
+.ss_pic{
+	width: 24px;
+	height: 24px;
+}
+
+.content{
+    margin: 11px;
+}
+
+.content a{
+	display: block;
+	float: left;
+	width: 33.33%;
+}
+.content a img{
+	width: 24px;
+	height: 24px;
+	margin-bottom: 4px;
+}
+.content a dl{
+	display: cell;
+	text-align: center;
+	border-radius: 4px;
+	box-shadow:0px 2px 6px rgba(160,160,160,0.15);
+	color: #333;
+	margin: 5px;
+	padding: 20px 4px 12px 4px;
+	background: #fff;
+}
+.content a dl dd{
+	display: table-cell;
+	vertical-align: middle;
+	width: 1%;
+	text-align: center;
+	height: 32px;
+	font-size: 12px;
+}
+
+.hint-save{
+    margin-top: 60px;
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 12px;
+    color: #666;
+}
