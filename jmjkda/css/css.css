@@ -44,7 +44,7 @@ a{
 	display: block;
 	float: left;
 	color: #FFFFFF;
-	font-size: 10px;
+	font-size: 11px;
 	border: 1px solid #FFFFFF;
 	border-radius: 2px;
 	width: 40px;
@@ -72,7 +72,7 @@ a{
 }
 
 .content{
-    margin: 11px;
+    margin: 7px;
 }
 
 .content a{
@@ -100,10 +100,8 @@ a{
 	display: table-cell;
 	vertical-align: middle;
 	width: 1%;
-	text-align: center;
 	height: 32px;
 	font-size: 12px;
-	background: #009688;
 }
 
 .hint-save{
