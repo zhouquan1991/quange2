@@ -94,6 +94,7 @@ a{
 	margin: 5px;
 	padding: 20px 4px 12px 4px;
 	background: #fff;
+	height: 64px;
 }
 .content a dl dd{
 	display: table-cell;
@@ -102,6 +103,7 @@ a{
 	text-align: center;
 	height: 32px;
 	font-size: 12px;
+	background: #009688;
 }
 
 .hint-save{
