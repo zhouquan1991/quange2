@@ -8,17 +8,13 @@ body{
 .body1{
 	background: #fff1f2;
 }
-@font-face{
-    font-family:'FZPWJW';
-    src : url(../fonts/FZPWJW.ttf);
-}
 .bg img{
 	display: block;
 	background-size: 100% 100%;
 	width: 100%;
 }
 .text{
-	font-family:'FZPWJW';
+	font-family: PingFangSC-Semibold, sans-serif;
 	font-size: 28px;
 	position: absolute;
 	margin: 0 auto;
