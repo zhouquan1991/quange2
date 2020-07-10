@@ -32,7 +32,8 @@ body{
 	width: 300px;
 	margin: 0 auto;
 	border: none;
-	padding-top: 12px;
+	padding-top: 8px;
+	padding-bottom: 20px;
 }
 
 @media screen and (max-width:360px) {
