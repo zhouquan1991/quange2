@@ -3,10 +3,16 @@ body, div, ul, li, ol, h1, h2, h3, h4, h5, h6, input, textarea, select, p, dl, d
     padding: 0;
 }
 body{
-	background: #f1fbff;
+	background: #a3e4fe;
+	padding-bottom: 16px;
+}
+a, a:hover, a:visited, a:link, a:active {
+    text-decoration:none;
+    outline: none;
+	box-sizing: border-box;
 }
 .body1{
-	background: #fff1f2;
+	background: #fea3a9;
 }
 .bg img{
 	display: block;
@@ -28,13 +34,17 @@ body{
 .text1{
 	color: #ff7d99;
 }
-.btn a img{
-	height: 70px;
-	width: 300px;
+.btn{
+	position: absolute;
 	margin: 0 auto;
+	transform: translate(-50%, 0);
+	left: 50%;
+}
+.btn a img{
+	height: 61px;
+	width: 286px;
 	border: none;
-	padding-top: 8px;
-	padding-bottom: 20px;
+	padding-top: 12px;
 }
 
 @media screen and (max-width:360px) {
@@ -52,5 +62,11 @@ body{
 }
 .text1{
 	color: #ff7d99;
+}
+.btn a img{
+	height: 50px;
+	width: 234px;
+	border: none;
+	padding-top: 12px;
 }
 }
