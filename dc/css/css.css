@@ -1,0 +1,68 @@
+body, div, ul, li, ol, h1, h2, h3, h4, h5, h6, input, textarea, select, p, dl, dt, dd, a, img, button, form, table, th, tr, td, tbody, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    margin: 0;
+    padding: 0;
+}
+body{
+	padding: 0 16px;
+}
+a, a:hover, a:visited, a:link, a:active {
+    text-decoration:none;
+    outline: none;
+	box-sizing: border-box;
+}
+.bg{
+	max-width: 667px;
+	margin: 0 auto;
+}
+.bg img{
+	display: block;
+	background-size: 100% 100%;
+	width: 100%;
+}
+.text{
+	width: 100%;
+	font-family: PingFangSC-Semibold, sans-serif;
+	font-size: 16px;
+	position: absolute;
+	margin: 0 auto;
+	text-align: center;
+	transform: translate(-50%, 0);
+	left: 50%;
+	line-height: 24px;
+	color: #efc0a4;
+	padding-top: 12px;
+}
+.btn{
+	position: absolute;
+	margin: 0 auto;
+	transform: translate(-50%, 0);
+	left: 50%;
+}
+.btn a img{
+	height: 57px;
+	width: 280px;
+	border: none;
+	padding-top: 12px;
+}
+
+@media screen and (max-width:360px) {
+.text{
+	font-family: PingFangSC-Semibold, sans-serif;
+	font-size: 12px;
+	position: absolute;
+	margin: 0 auto;
+	text-align: center;
+	transform: translate(-50%, 0);
+	left: 50%;
+	line-height: 20px;
+	color: #efc0a4;
+	width: 100%;
+	padding-top: 10px;
+}
+.btn a img{
+	height: 50px;
+	width: 247px;
+	border: none;
+	padding-top: 12px;
+}
+}
