@@ -95,8 +95,7 @@ a,a:hover,a:active,a:visited,a:link,a:focus{
 }
 .content dl dt{
 	color: #333;
-	padding: 8px 0;
-	line-height: 24px;
+	padding: 6px 0;
 	font-weight: bold;
 }
 
@@ -106,25 +105,25 @@ a,a:hover,a:active,a:visited,a:link,a:focus{
 	width: 100%;
 }
 .content dl dd input{
+	padding: 8px 0;
 	border: none;
 	width: 100%;
 	color: #666;
 	font-size: 14px;
 }
 .content ul li {
-	padding: 8px 0;
 	font-size: 15px;
 	white-space: nowrap;
 	font-weight: bold;
 }
 .content ul li input{
 	font-size: 14px;
+	padding: 10px 0;
 	width: 60%;
 	color: #666;
 }
 .content dl dd textarea{
 	width: 100%;
-	height: 0px;
 	background: none;
 	line-height: 20px;
 	font-size: 14px;
