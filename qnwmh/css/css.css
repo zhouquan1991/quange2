@@ -109,6 +109,7 @@ a,a:hover,a:active,a:visited,a:link,a:focus{
 	border: none;
 	width: 100%;
 	color: #666;
+	font-size: 14px;
 }
 .content ul li {
 	padding: 8px 0;
