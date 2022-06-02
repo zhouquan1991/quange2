@@ -95,17 +95,16 @@ a,a:hover,a:active,a:visited,a:link,a:focus{
 }
 .content dl dt{
 	color: #333;
-	padding: 6px 0;
 	font-weight: bold;
+	padding: 4px 0;
 }
 
 .content dl dd{
 	background-color: #fff;
-	padding-bottom: 6px;
 	width: 100%;
 }
 .content dl dd input{
-	padding: 8px 0;
+	height: 36px;
 	border: none;
 	width: 100%;
 	color: #666;
@@ -115,10 +114,11 @@ a,a:hover,a:active,a:visited,a:link,a:focus{
 	font-size: 15px;
 	white-space: nowrap;
 	font-weight: bold;
+	line-height: 36px;
 }
 .content ul li input{
 	font-size: 14px;
-	padding: 10px 0;
+	height: 36px;
 	width: 60%;
 	color: #666;
 }
